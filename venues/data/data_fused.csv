@@ -1,0 +1,588 @@
+name,capacity,town,population,roofed,latitude,longitude
+Auditori polivalent(Centre Cultural) de Granollers,349,Granollers,64181,True,41.607521318008864,2.282024501418344
+Auditorio Manuel de Falla(Centro Cultural Manuel de Falla) de Granada,1313,Granada,232717,True,37.17354832838734,-3.588435956233968
+Auditorio Municipal(Ayuntamiento) de Logroño,800,Logroño,151164,True,42.463899616793626,-2.432860060361617
+Auditorio Municipal Maestro Padilla de Almería,966,Almería,202675,True,36.82327470767095,-2.4445532620900283
+Teatro Juan Luis Galiardo de San Roque,670,San Roque,33646,True,36.21003935,-5.388292377875176
+Cine-Teatro Filarmónica de Oviedo,1221,Oviedo,220543,True,43.36254485,-5.846429934052317
+Gran Teatro Falla de Cádiz,1214,Cádiz,110914,True,36.53367865,-6.302112149999999
+Jove Teatre Regina de Barcelona,337,Barcelona,1702547,True,41.3968327,2.1561511
+L´Espai de Barcelona,370,Barcelona,1702547,True,41.3944931,2.14700475
+Palacio de Congresos de Jaca,532,Jaca,13620,True,42.57481885,-0.5468783433419717
+Paraninfo de Las Llamas(Pabellón central) de Santander,0,Santander,174101,True,43.47322485,-3.7953595492099614
+Pere Gran Maristany(El Casino) de El Masnou,700,el Masnou,24181,True,41.483573,2.3276662
+"Sala A, ´´Iturbi´´(Palau de la Música i Congressos de Valencia) de Valencia",1792,València,825948,True,39.4661802,-0.360453918832513
+Sala Argenta(Palacio de Festivales de Cantabria) de Santander,1642,Santander,174101,True,43.46232165,-3.788856483710106
+"Sala B, ´´Rodrigo´´(Palau de la Música i Congressos de Valencia) de Valencia",420,València,825948,True,39.4661802,-0.360453918832513
+Sala Fernando de Rojas(Círculo de Bellas Artes) de Madrid,590,Madrid,3416771,True,40.4182074,-3.696513838467072
+Sala Luis Galve(Auditorio-Palacio de Congresos) de Zaragoza,429,Zaragoza,686986,True,41.6382304,-0.9012271
+Sala Medicina(Facultad de Medicina) de Santander,420,Santander,174101,True,43.45716824516632,-3.8486635274741623
+Sala Mozart(Auditorio-Palacio de Congresos) de Zaragoza,1992,Zaragoza,686986,True,41.6382304,-0.9012271
+Sala Multiusos ´Cesaraugusta´(Auditorio-Palacio de Congresos) de Zaragoza,2500,Zaragoza,686986,True,41.6382304,-0.9012271
+Sala Pereda(Palacio de Festivales de Cantabria) de Santander,566,Santander,174101,True,43.46232165,-3.788856483710106
+Sala Rialto(Teatre Cine Rialto) de Valencia,391,València,825948,True,39.4709608,-0.3762924
+Sala Valle-Inclán(Real Escuela Superior de Arte Dramático-RESAD) de Madrid,498,Madrid,3416771,True,40.41034485,-3.6745603283650414
+Salón de Actos(Centro Cívico Los Canapés) de Avilés,364,Avilés,75351,True,43.54627228904066,-5.915764113955044
+Teatro CASYC de Santander,500,Santander,174101,True,43.46465865,-3.805814573853712
+Teatre Ateneu de Tàrrega,552,Tàrrega,18268,True,41.6478307,1.1418977406196398
+Teatre Condal de Barcelona,722,Barcelona,1702547,True,41.3747756,2.1644681
+Teatre Conservatori de Manresa,566,Manresa,80201,True,41.7247903,1.8233415
+Teatre del Sol de Sabadell,185,Sabadell,222177,True,41.54576663489412,2.108840497245217
+Teatre Lliure Gràcia de Barcelona,315,Barcelona,1702547,True,41.4027189,2.1559586
+Teatre Modern de El Prat de Llobregat,482,el Prat de Llobregat,66184,True,41.33033145,2.092716653182241
+Teatre Municipal La Faràndula de Sabadell,1069,Sabadell,222177,True,41.54631365,2.1139567505635526
+Teatre Principal de Badalona,350,Badalona,227083,True,41.45196827044486,2.249524329627876
+Teatre Principal de Valencia,1226,València,825948,True,39.47074535,-0.3744734278807535
+Teatre Victòria de Barcelona,1134,Barcelona,1702547,True,41.37498731676953,2.1656616860215574
+Teatro Albéniz de Madrid,1040,Las Rozas de Madrid,98590,True,40.5229103,-3.8909015833788207
+Teatro Auditorio Ciudad de Alcobendas de Alcobendas,989,Alcobendas,121373,True,40.54697738565614,-3.641612355606292
+Teatro Bellas Artes de Tarazona,577,Tarazona,10720,True,41.90523,-1.7242485690226184
+Teatro Bretón de los Herreros de Logroño,988,Logroño,151164,True,42.4649221,-2.448515204040421
+Teatro Cerezo de Carmona,985,Carmona,29551,True,37.47044985532939,-5.644501524389447
+Teatro Cervantes de Arnedo,472,Arnedo,15201,True,42.229069068589006,-2.091152238023698
+Teatro Cine Comtal de Ripoll,564,Ripoll,10731,True,42.200014178779135,2.189122173082281
+Teatro de la Comedia de Madrid,845,Madrid,3416771,True,40.4156155,-3.7003987
+Teatro de la Latina de Madrid,913,Madrid,3416771,True,40.41156575,-3.708773605907534
+Teatro de la Zarzuela de Madrid,1242,Madrid,3416771,True,40.41725705,-3.697192930781628
+Teatro de Madrid de Madrid,865,Madrid,3416771,True,40.48285271407203,-3.702216646739411
+Teatro Español de Madrid,741,Madrid,3416771,True,40.4258351,-3.6802814
+Sala Cándido Lara(Teatro Lara) de Madrid,464,Madrid,3416771,True,40.4221297,-3.7043663
+Teatro Lope de Vega de Madrid,1434,Madrid,3416771,True,40.4217768,-3.70869
+Teatro Cervantes de Málaga,1134,Málaga,591637,True,36.72475726309074,-4.4181900064860455
+Teatro Municipal Enrique de la Cuadra de Utrera,525,Utrera,52173,True,37.19213224249142,-5.799559498494321
+Teatro Municipal F. G. Lorca(Centro Cultural F. G. Lorca) de San Fernando de Henares,466,San Fernando de Henares,38980,True,40.42454914857131,-3.52863455359894
+Teatro Municipal Isabel la Católica de Granada,574,Granada,232717,True,37.1727515,-3.5989994
+Teatro Palacio Valdés de Avilés,747,Avilés,75351,True,43.55531805,-5.920024764617039
+Teatro Oscense de Huéscar,301,Huéscar,7220,True,37.8121435,-2.540407550717143
+Teatro Principal de Puerto Real,406,Puerto Real,42151,True,36.532250575480745,-6.200490058105249
+Teatro Principal de Reinosa,351,Reinosa,8570,True,43.0020457,-4.136461334593908
+Teatro Real de Madrid,1476,Madrid,3416771,True,40.41815215,-3.709463045445115
+Teatro Salón Cervantes de Alcalá de Henares,454,Alcalá de Henares,200702,True,40.4832891,-3.3646958500000004
+Teatro Social/Social Antzokia de Basauri,754,Basauri,40388,True,43.23584347119878,-2.886893313188596
+La Sala Teatre Municipal de Rubi,567,Rubí,81532,True,41.4879691896265,2.034446946211112
+Teatro Marquina de Madrid,500,Madrid,3416771,True,40.421955,-3.6938248
+Teatro Municipal(Casa de Cultura) de Tres Cantos,434,Tres Cantos,52932,True,40.599276,-3.7109882544634583
+Centro Cívico Rigoberta Menchú de Leganés,300,Leganés,194084,True,40.335303083462186,-3.745551349274028
+Auditorio Joaquín Rodrigo(Centro Cultural Isabel de Farnesio) de Aranjuez,404,Aranjuez,62292,True,40.0328095,-3.60177
+Teatro Sanpol de Madrid,532,Madrid,3416771,True,40.42394905,-3.7269810638801273
+Teatro Cervantes de Almería,500,Almería,202675,True,36.83729150306178,-2.463715548448928
+Teatro Martín Recuerda(Casa de la Cultura) de Almuñécar,456,Almuñécar,27305,True,36.73525146909017,-3.6898596729351976
+La Nube(Palacio de Exposiciones y Congresos) de Granada,638,Granada,232717,False,37.16477937694751,-3.600357231174426
+Teatro Municipal Alameda de Sevilla,416,Sevilla,687488,True,37.4019118,-5.9945602404816345
+Teatro Guimerá de Santa Cruz de Tenerife,854,Santa Cruz de Tenerife,211359,True,28.46547115,-16.250448141433118
+Teatre Borràs de Barcelona,737,Barcelona,1702547,True,41.3888477,2.1735904
+Palau de la Música Catalana de Barcelona,2138,Badalona,227083,True,41.44852275,2.24922325
+Salón de Actos(Casa de Cultura) de Villarrobledo,320,Villarrobledo,25189,True,39.26269694052307,-2.606138365608421
+Teatro Cine Archena Parque de Archena,600,Archena,20110,True,38.1163979711492,-1.297704787288487
+Auditorio Municipal Tierno Galván de Alhama de Murcia,1000,Alhama de Murcia,23280,False,37.85175255,-1.43548735
+Teatro Municipal Juan Bernabé de Lebrija,467,Lebrija,27727,True,36.91797812090889,-6.063854026722788
+Gran Teatro de Córdoba,946,Córdoba,322811,True,37.88909667531115,-4.782753128059427
+Centro Cultural de la Villa de Ingenio,514,Ingenio,32354,True,27.91940343255637,-15.444939159857656
+Cine Retiro(Societat Recreativa El Retiro) de Sitges,701,Sitges,31954,True,41.2364395,1.8106941
+Teatro Campoamor de Oviedo,1440,Oviedo,220543,True,43.36302149672,-5.848495735497769
+Centre Cultural de Mislata,400,Mislata,46153,True,39.47277369497986,-0.4143370622049243
+Teatro Auditorio de Cuenca,736,Cuenca,53429,True,40.07654618256079,-2.1283691063736017
+Teatro de Rojas de Toledo,420,Toledo,86526,True,39.85777096001137,-4.022721602311142
+Gran Teatro de Villarrobledo,550,Villarrobledo,25189,True,39.26779313696617,-2.6055685461310816
+Teatro Villarroel de Barcelona,418,Barcelona,1702547,True,41.3845106,2.1574535
+Auditorio(Casa de Cultura) de La Roda,398,La Roda,15542,True,39.20654097665861,-2.1563733187823706
+Teatro Cine Crisfel de Alcázar de San Juan,709,Alcázar de San Juan,30928,True,39.39370885782436,-3.203245821782917
+Teatro Victoria de Talavera de la Reina,371,Talavera de la Reina,84738,True,39.959267744917256,-4.83204843106822
+Sala Trajano de Mérida,300,Mérida,59857,True,38.920957,-6.3474187
+Teatro Alcázar(Palacio de los Recreos) de Madrid,759,Madrid,3416771,True,40.41762175,-3.698969291763469
+Teatro Municipal(Centro Sociocultural) de Valdemoro,426,Valdemoro,83507,True,40.19222655,-3.676601584749784
+Sala García Lorca(Palacio de Exposiciones y Congresos) de Granada,1999,Granada,232717,True,37.16477937694751,-3.600357231174426
+Foro Iberoamericano de La Rábida de Palos de la Frontera,3831,Palos de la Frontera,12537,False,37.2132486,-6.9149121
+Teatre Fortuny de Reus,807,Reus,109930,True,41.1562605,1.1065328
+Teatro Galileo(Centro Cultural Galileo) de Madrid,210,Madrid,3416771,True,40.4343169,-3.71840965
+Auditorio(Centro Cultural Antonio Machado) de Madrid,458,Madrid,3416771,True,40.42138024115288,-3.620707228353853
+Teatro Cervantes de Campo de Criptana,428,Campo de Criptana,12960,True,39.40591608788138,-3.125136135816878
+Salón de Actos(Casa de Cultura) de Madridejos,441,Madridejos,10169,True,39.46673457563225,-3.5321707883213573
+San Agustín Kultur Gunea de Durango,304,Durango,29767,True,43.1654083369355,-2.632822293924753
+Auditorio(Casa de Cultura) de Pilas,600,Pilas,14052,False,37.3029841638273,-6.297562223821075
+Gran Teatro de Huelva,601,Huelva,143290,True,37.25622514098317,-6.951485656915619
+Teatro Victoria de Priego de Córdoba,508,Priego de Córdoba,22003,True,37.437990878719646,-4.195336339331233
+Teatro Thuiller de Caravaca de la Cruz,426,Caravaca de la Cruz,25756,True,38.10789004406046,-1.860214761391967
+Teatro Guerra de Lorca,606,Lorca,98334,True,37.6735636797045,-1.6981274170442922
+Sala Narciso Yepes(Auditorio y Centro de Congresos Víctor Villegas) de Murcia,1838,Lorquí,7706,True,38.07910837992952,-1.2523818227207877
+Sala Miguel Ángel Clares(Auditorio y Centro de Congresos Víctor Villegas) de Murcia,469,Lorquí,7706,True,38.07910837992952,-1.2523818227207877
+Teatro Vico de Jumilla,521,Jumilla,26784,True,38.47511193292706,-1.3261115432026502
+Auditorio Parque Almansa de San Javier,2300,San Javier,35241,False,37.80129545909708,-0.8199214151561551
+Teatro Municipal Felipe Godínez de Moguer,322,Moguer,22956,True,37.27512035719455,-6.839757197587023
+Teatro Wagner de Aspe,550,Aspe,21473,True,38.3426186113752,-0.7714550413207902
+Teatro Apolo de Barcelona,1016,Barcelona,1702547,True,41.3750019930869,2.161517850311214
+Teatre Tívoli de Barcelona,1640,Olesa de Montserrat,24446,True,41.54661355651471,1.8788306727167727
+Auditori Municipal Miquel Pont de Castellar del Vallès,332,Castellar del Vallès,25150,True,41.61645108793388,2.0868497919618574
+Auditorio Municipal Manuel de Falla de Sanlúcar La Mayor,500,Sanlúcar la Mayor,14172,False,37.38932336611804,-6.207216052867118
+Teatro Ideal Cinema de Úbeda,600,Úbeda,33810,True,38.00946735,-3.3689096059038945
+Teatro-Cine Montemar de Baeza,836,Baeza,15723,True,37.9934115,-3.467339
+Teatre Talía de Valencia,378,València,825948,True,39.47662525886396,-0.3785830837555896
+Salón de Actos(Casa de Cultura) de Cullera,520,Cullera,23753,True,39.1624257085537,-0.2536665408673064
+Teatro Principal de Requena,1495,Requena,20387,True,39.2973554,-1.1224999
+Auditorio Municipal Benicarló de Benicarló,348,Benicarló,28681,True,40.41084960507836,0.4240061987326877
+Auditori Joan Cererols(Centre Cultural Martorell) de Martorell,316,Martorell,28760,True,41.4731974,1.9158866107847423
+Salón de Actos(Casa de la Cultura) de Catarroja,300,Catarroja,29316,True,39.40162835,-0.4042767461263024
+Centro Cultural Capitolio de Godella,632,Godella,13414,True,39.51911015,-0.413022954058158
+Teatro Circo de Orihuela,1200,Orihuela,83720,True,38.08546668207018,-0.9431420318449129
+Teatro(Centre Cultural Salvador Miró) de Ibi,392,Ibi,23920,True,38.6180507692012,-0.5861792375527084
+Teatro Cortés de Almoradí,480,Almoradí,21874,True,38.110847,-0.7893527012663709
+Centre d´Arts Escèniques de Gavà(Espai Maragall) de Gavà,534,Gavà,48007,True,41.30239419029989,2.0005363800465963
+Teatro Principal de Palencia,431,Palencia,76738,True,42.00971308850612,-4.530823224231536
+Aula Juan del Encina(Anayita) de Salamanca,420,Salamanca,144866,True,40.96092891609258,-5.664789259161948
+Teatro Carrión de Valladolid,803,Valladolid,300618,True,41.64965687488098,-4.726653513360875
+Salón Cine Borja(Residencia del Sagrado Corazón) de Valladolid,486,Valladolid,300618,True,41.6524651,-4.720317985320804
+Teatro(Manuel Lekuona Kultur Etxea) de Lasarte-Oria,530,Lasarte-Oria,19133,True,43.2705518,-2.0226429
+Teatro Arriaga de Bilbao,1502,Bilbao,348089,True,43.259475550000005,-2.9250020488419013
+Centre Municipal Bernat i Baldoví de Sueca,940,Sueca,28086,True,39.201504224489305,-0.3128952897832124
+Teatro Cine Festival de Villafranca de los Barros,576,Villafranca de los Barros,12366,True,38.55944089703536,-6.338300572301129
+Teatro Imperial de Don Benito,475,Don Benito,37485,True,38.95387738650354,-5.859542894836735
+Auditorio(Casa de Cultura) de Aranda de Duero,292,Aranda de Duero,33626,True,41.67107665,-3.6881043890351872
+Teatro Principal de Burgos,846,Burgos,175895,True,42.34027465,-3.702096160738829
+Teatro Clunia(Centro Cultural Francisco Salinas) de Burgos,611,Burgos,175895,True,42.34022275,-3.7083194187374513
+Teatro Nuevo Fernando Arrabal de Ciudad Rodrigo,506,Ciudad Rodrigo,11810,True,40.59689236907854,-6.532736446731892
+Teatro Zorrilla de Valladolid,610,Valladolid,300618,True,41.651653,-4.7280698
+Auditorium de la Feria de Muestras de Valladolid,612,Valladolid,300618,True,41.65878560718208,-4.736661547793527
+Biteri Kultur Etxea de Hernani,172,Hernani,20527,True,43.261752,-1.9751269
+Auditori Germanies de Manises,558,Manises,31573,True,39.49067595269047,-0.4592361854466176
+Sala d´Audicions(Agrupació Musical La Lírica) de Silla,350,Silla,19683,True,39.36113855,-0.41071465
+Auditorio Municipal Marcos Ortiz de Totana,1500,Totana,33149,True,37.76976180698529,-1.498787716392035
+Teatro Bellas Artes de Madrid,455,Madrid,3416771,True,40.4181727,-3.6963263
+Teatro Nuevo Apolo de Madrid,1275,Madrid,3416771,True,40.4121176,-3.703293399641577
+Teatro Juan Ramón Jimenez(Casa de Cultura) de Telde,597,Telde,102867,True,27.997557990280416,-15.413647652453754
+Sala de Teatro(Centro Insular de Cultura) de Las Palmas de Gran Canaria,252,Las Palmas de Gran Canaria,380436,True,28.106176244340087,-15.41907721046994
+Teatro Principal de Santiago de Compostela,400,Santiago de Compostela,99536,True,42.878776,-8.543313970054513
+Casa Municipal de Cultura de Miranda de Ebro,388,Miranda de Ebro,36018,True,42.6818624,-2.9442833
+Teatre Municipal de Pego,500,Pego,10485,True,38.84143785,-0.1157599474637679
+Salón de Actos(Auditorio Caja España) de Valladolid,389,Valladolid,300618,True,41.65222485,-4.72642334896126
+Benidorm Palace de Benidorm,1800,Benidorm,74663,True,38.555065356767,-0.1017544452766836
+Teatro Emperador de León,960,Burgos,175895,True,42.34482827231386,-3.717118011808729
+Teatro Auditorio García Lorca de Getafe,723,Getafe,189906,True,40.30930671692739,-3.72983638878542
+Teatro del Mercado de Zaragoza,208,Zaragoza,686986,True,41.657969163038125,-0.8894243341057663
+Teatre Municipal de Manacor,453,Manacor,47777,True,39.56791144158304,3.220255319653296
+Sala Gran(Teatre Nacional de Catalunya) de Barcelona,886,Badalona,227083,True,41.46032695,2.236318253246898
+Sala Petita(Teatre Nacional de Catalunya) de Barcelona,602,Badalona,227083,True,41.46032695,2.236318253246898
+Sala Tallers(Teatre Nacional de Catalunya) de Barcelona,0,Badalona,227083,True,41.46032695,2.236318253246898
+Teatre Arnau de Barcelona,503,Barcelona,1702547,True,41.374684,2.1717397
+Teatre Cirvianum de Torelló,516,Torelló,14902,True,42.04734275,2.2634948625035483
+Teatro Principal de Inca,726,Inca,34577,True,39.72257165,2.909093
+Auditorio de la Unió Filarmónica(La Unió Filarmónica) de Amposta,467,Amposta,22270,True,40.6683865,0.5651052
+Teatro de la Maestranza de Sevilla,1800,Sevilla,687488,True,37.3840732,-5.996668806707386
+Teatro Santo Tomás(Teatro Fundación Ávila) de Ávila,558,Ávila,58111,True,40.64706667344846,-4.685171528438264
+Teatro Calderón de la Barca de Valladolid,1115,Valladolid,300618,True,41.65602418693548,-4.724264606383459
+Auditorio Municipal de Albacete,582,Albacete,174137,True,38.99645255,-1.85675855
+Teatro La Jaramilla(Centro Cultural La Jaramilla) de Coslada,323,Coslada,80760,True,40.417657269117456,-3.5788709390193043
+Teatro Municipal Buero Vallejo(Centro Municipal de las Artes) de Alcorcón,903,Alcorcón,173625,True,40.34284741297854,-3.838301048615037
+Teatro Calderón de Madrid,0,Madrid,3416771,True,40.4065721,-3.697498
+L´Auditori de Cornellà de Llobregat,698,Cornellà de Llobregat,91589,True,41.349444000000005,2.0817436823405835
+Centre Cultural Municipal de Valls,843,Valls,25014,True,41.28710740984658,1.2567900798688596
+Sala San Juan de la Cruz(Teatro de la Abadía) de Madrid,309,Madrid,3416771,True,40.43535625,-3.7095912141826974
+Sala José Luis Alonso(Teatro de la Abadía) de Madrid,195,Madrid,3416771,True,40.43535625,-3.7095912141826974
+Teatro Afundación de Vigo,994,Vigo,293997,True,42.237711889761776,-8.724145071872334
+Teatro Municipal Reina Sofía de Zuera,395,Zuera,8677,True,41.86817169306099,-0.7876596130850111
+La Rotonda(Centro Cívico Delicias) de Zaragoza,250,Zaragoza,686986,True,41.6555503,-0.9065048
+Teatro(Centro Cívico Río Ebro) de Zaragoza,176,Zaragoza,686986,True,41.676829,-0.889154
+Teatro Pradillo de Madrid,120,Madrid,3416771,True,40.4485825,-3.6747279
+Salón de actos(Casa de Cultura) de Villena,234,Villena,34144,True,38.63132483889155,-0.8635788487685818
+Teatro Municipal Cervantes de Sax,408,Sax,10072,True,38.5364441,-0.8196918
+Salón de actos(Casa de Cultura) de Santa Pola,260,Santa Pola,38556,True,38.19078115,-0.5883587499999998
+Auditorio(Casa de Cultura) de Guardamar del Segura,421,Guardamar del Segura,17328,True,38.0925021,-0.6539656686944655
+Cine Teatro Las Vegas de Villanueva de la Serena,550,Villanueva de la Serena,25751,True,38.96823082647103,-5.799254218093272
+Teatro Gabriel y Galán(Palacio Juan Pizarro de Aragón) de Trujillo,298,Trujillo,8605,True,39.4583878,-5.8819231
+Salón de actos(Centro Cultural Antonio Gala) de La Rinconada,190,La Rinconada,40529,True,37.48461750861231,-5.982055615932301
+Teatro(Casa de Cultura) de Pilas,213,Pilas,14052,True,37.3029841638273,-6.297562223821075
+Teatro Salón Gutiérrez de Alba de Alcalá de Guadaira,395,Alcalá de Guadaíra,76922,True,37.33607261350494,-5.846506911915434
+Salón de Actos(Centro Cultural Doctor Velasco) de Laredo,252,Laredo,10849,True,43.4110568,-3.4146023
+Sala Bretón de El Astillero,279,El Astillero,18220,True,43.39999708157266,-3.8216653009039327
+Salón de Actos(Colegio Mayor San Juan Evangelista) de Madrid,519,Madrid,3416771,True,40.445587121792094,-3.721292194596465
+Sala del Mirador de Madrid,120,Madrid,3416771,True,40.4070512,-3.6988713
+La Nave de Aranjuez,100,Aranjuez,62292,True,40.02801443862813,-3.6160617690192782
+Salón de Actos(Colegio Mayor Elías Ahuja) de Madrid,514,Madrid,3416771,True,40.451211400000005,-3.7149699838047017
+Auditorio Sabatini(Museo Nacional Centro de Arte Reina Sofía) de Madrid,144,Madrid,3416771,True,40.4081081,-3.6935614
+Sala El Montacargas de Madrid,50,Madrid,3416771,True,40.41181426722677,-3.727973948271756
+Salón de Actos(Ateneo) de Madrid,214,Madrid,3416771,True,40.4151962,-3.698232113324317
+Teatro de Cámara de Madrid,120,Madrid,3416771,True,40.4093986,-3.6979879
+Teatro(Fundación Germán Sánchez Ruipérez) de Peñaranda de Bracamonte,200,Peñaranda de Bracamonte,6079,True,40.9010066,-5.2003755
+Teatro(C. Cultural Doctor y Poeta José Mª Romero Martínez) de Sanlúcar La Mayor,409,Sanlúcar la Mayor,14172,True,37.38932336611804,-6.207216052867118
+Casa de la Cultura de Cantillana,302,Cantillana,10782,True,37.61289651391849,-5.825693880162918
+Casa de la Cultura de Santa Fe,517,Santa Fe,15105,True,37.1852767,-3.7169296
+Teatro Alhambra de Granada,298,Granada,232717,True,37.170143275136,-3.5898442812706994
+Auditorio(Palacio de Congresos) de Madrid,1909,Madrid,3416771,True,40.45330985,-3.691850053361637
+Ensayo 100 Teatro de Madrid,84,Madrid,3416771,True,40.4327994,-3.6984333
+Auditorio(Centro Cultural Ceutí) de Ceutí,426,Ceutí,12668,True,38.07826152245868,-1.2763524151281245
+Auditorio Municipal de Calasparra,287,Calasparra,10161,True,38.229735469453885,-1.696334394244094
+Salón de actos(Casa de Cultura) de Archena,150,Archena,20110,True,38.1163979711492,-1.297704787288487
+Salón de Actos(Centro Cultural Cajastur) de Oviedo,208,Oviedo,220543,True,43.3620811,-5.846606
+Salón de Actos(Centro Cultural Cajastur) de Mieres,466,Mieres,36195,True,43.2511653,-5.7730094
+Salón de Actos(I.E.S. Marqués de Santillana) de Torrelavega,600,Torrelavega,51663,True,43.3479157,-4.051104687653584
+Teatro Municipal de Écija,658,Écija,39500,True,37.54322872283976,-5.076743652810907
+Sala La Fundición(Fundición Real de la Casa de la Moneda) de Sevilla,150,Sevilla,687488,True,37.38359445,-5.9942874
+Teatro(Institución Provincial Fernando Quiñones) de Cádiz,584,Cádiz,110914,True,36.53633115,-6.292698665195678
+Salón Multiusos(Centro Cultural) de Castuera,235,Castuera,5567,True,38.72062876213938,-5.547125849922155
+Teatro Chapí de Villena,864,Villena,34144,True,38.63087169226036,-0.8667017289886495
+Teatro Castelar de Elda,750,Elda,53818,True,38.47966600235489,-0.7925382779142175
+Teatro Cine Monumental de Los Santos de Maimona,776,Los Santos de Maimona,8096,True,38.44762661848007,-6.379945143263946
+Salón de Actos(Casa de Cultura) de Pozuelo de Alarcón,263,Pozuelo de Alarcón,89378,True,40.43706691154858,-3.818046935887985
+Salón de Actos(Centro Cultural Federico García Lorca) de Rivas Vaciamadrid,190,Rivas-Vaciamadrid,101949,True,40.3553656,-3.5478518641274586
+Salón de Actos(Centro Cívico) de San Martín de la Vega,280,San Martín de la Vega,20304,True,40.211122,-3.5745488
+Sala Gurdulú de Leganés,91,Leganés,194084,True,40.3254847,-3.7624681
+Salón de Actos(Centro Cultural) de Griñón,280,Griñón,10087,True,40.2146845,-3.85287815
+Salón de Actos(Casa de la Cultura) de Boadilla del Monte,282,Boadilla del Monte,65839,True,40.4064534,-3.875841166290325
+Auditorio(Escuela de Música Manuel de Falla) de Alcorcón,300,Alcorcón,173625,True,40.35510772348511,-3.8164078987451857
+Salón de Actos(Casa de la Cultura) de Olivenza,300,Olivenza,11776,True,38.68418562681565,-7.0983648423609065
+Auditorio Municipal de Olivenza,1394,Olivenza,11776,False,38.6852445098836,-7.097685191112723
+Teatro Cine Balboa de Jerez de los Caballeros,653,Jerez de los Caballeros,9147,True,38.322523972266346,-6.76714960559256
+Sala Principal(Auditorio-Palacio de Congresos Príncipe Felipe) de Oviedo,1504,Oviedo,220543,True,43.35755585,-5.851961989986048
+Sala Polivalente(Auditorio-Palacio de Congresos Príncipe Felipe) de Oviedo,535,Oviedo,220543,True,43.35755585,-5.851961989986048
+Sala de Música de Cámara(Auditorio-Palacio de Congresos Príncipe Felipe) de Oviedo,404,Oviedo,220543,True,43.35755585,-5.851961989986048
+Auditorio(Palacio Euskalduna de Congresos y de la Música) de Bilbao,2165,Bilbao,348089,True,43.2666712,-2.9442555
+Sala A-1(Palacio Euskalduna de Congresos y de la Música) de Bilbao,615,Bilbao,348089,True,43.2666712,-2.9442555
+BilboRock de Bilbao,326,Bilbao,348089,True,43.2572321,-2.9275214
+Casa de la Cultura de Guadix,272,Guadix,18527,True,37.2996985,-3.1308924
+Salón de Actos(Casa de la Cultura) de Almonte,300,Almonte,25233,True,37.26182382797115,-6.516205221431696
+Teatro Muñoz Seca de Madrid,294,Madrid,3416771,True,40.4183658,-3.7032747
+Teatro Alfil de Madrid,200,Madrid,3416771,True,40.4232134,-3.7045532
+Sala Federico García Lorca(Centro Cultural Las Rozas) de Las Rozas de Madrid,292,Las Rozas de Madrid,98590,True,40.48913050236193,-3.877669737922204
+Teatro(Casa de Cultura Carmen Conde) de Majadahonda,321,Majadahonda,73355,True,40.4697465212906,-3.870827017744392
+Teatro(Centro Sociocultural) de El Álamo,139,El Álamo,10322,True,40.2295218,-3.9923621
+Salón de Actos(Casa Municipal de la Cultura) de Fuenlabrada,270,Fuenlabrada,190790,True,40.28136835921104,-3.7923195225701183
+Auditorio(Centro Cultural Villa de El Escorial) de El Escorial,148,El Escorial,16873,True,40.58229625800842,-4.127250807104809
+Salón de Actos(Centro Cultural El Caleidoscopio) de Móstoles,306,Móstoles,214006,True,40.3229229,-3.849463878044261
+Salón de Actos(Centro Cultural Joan Miró) de Móstoles,319,Móstoles,214006,True,40.31658891974729,-3.86169986807805
+Salón de Actos(Casa de Cultura) de Mejorada del Campo,234,Mejorada del Campo,24274,True,40.3965706,-3.4829763
+Salón de Actos(Centro Cultural El Castillo) de Villanueva de la Cañada,262,Villanueva de la Cañada,23593,True,40.46612853870713,-3.947089979582509
+Salón de Actos(Centro Cultural La Despernada) de Villanueva de la Cañada,272,Villanueva de la Cañada,23593,True,40.4496736,-4.0007742
+Teatro Cine Montecarlo(Sociedad Musical La Artística) de Buñol,1032,Buñol,9579,True,39.417952,-0.7903555
+Salón de Actos(Casa de Cultura) de Utiel,155,Requena,20387,True,39.51049158706051,-1.1659231691664262
+Cine Moderno(Casa de Cultura) de Alginet,924,Alginet,14442,True,39.26198006017653,-0.4674880129306513
+Auditorio El Torreón de Pozuelo de Alarcón,5000,Pozuelo de Alarcón,89378,False,40.44318661990297,-3.8135593619133727
+Salón de Actos(Centro Municipal de Cultura) de Pinto,245,Pinto,56003,True,40.2405603,-3.695531685040984
+Auditorio Teresa Berganza(Coliseo de la Cultura) de Villaviciosa de Odón,611,Villaviciosa de Odón,28750,True,40.35698995,-3.9045732923616
+Auditorio del Parque Juan Carlos I de Pinto,5000,Pinto,56003,False,40.23714133562095,-3.696320807081972
+Auditorio(Casa de la Cultura) de Bullas,264,Bullas,11664,True,38.0496139,-1.6705548532815464
+Teatro Municipal Florida de Algeciras,931,Algeciras,124978,True,36.12716164349848,-5.450575565428556
+Casa de Cultura de Olvera,180,Olvera,7887,True,36.93574916535129,-5.265484182707369
+Centro Joven de Mula,500,Mula,17382,False,38.03868944150224,-1.4972057248392208
+Sala Muntaner de Barcelona,200,Barcelona,1702547,True,41.3841161,2.162911
+Versus Teatre de Barcelona,102,Barcelona,1702547,True,41.4020744,2.1838973
+Agrupación Musical Santa Cecilia de Sedavi,400,Sedaví,10637,True,39.4247436,-0.3851011
+Teatre del Raval de Gandía,214,Gandia,80095,True,38.96119814399282,-0.1826109574759584
+Auditorio Nuestra Señora de la Merced de Sanlúcar de Barrameda,431,Sanlúcar de Barrameda,69876,True,36.776471724566576,-6.354438750450055
+Teatro Municipal de El Ejido(Centro Cultural de El Ejido) de El Ejido,337,El Ejido,90135,True,36.77731762829764,-2.8122713224251674
+Teatro(Colegio Salesiano de Deusto) de Bilbao,864,Bilbao,348089,True,43.272234,-2.9541069
+Paraninfo(I.E.S. Miguel de Unamuno) de Bilbao,334,Bilbao,348089,True,43.2606519,-2.9334323
+Auditorio Municipal El Portón de Alhaurín de la Torre,400,Alhaurín de la Torre,44057,False,36.66073282121851,-4.570468790029951
+Salón de Actos(Casa de la Cultura) de Alhaurín de la Torre,277,Alhaurín de la Torre,44057,True,36.6614801412077,-4.564464488779969
+Salón de Actos(Casa de la Cultura Blas Infante) de Coín,253,Coín,25023,True,36.66059492500284,-4.756719683109108
+María Victoria Atencia. (MVA)(Centro Cultural Provincial) de Málaga,266,Málaga,591637,True,36.72420614851186,-4.421731403945059
+Auditorio(Centro Cívico y Social) de Novelda,410,Novelda,25771,True,38.37994552424973,-0.7698932090286942
+Auditorio(Centro Cultural) de Onil,444,Onil,7763,True,38.63003975,-0.67320085
+Auditorio(Centro Cultural Enrique Tierno Galván) de Lorquí,274,Lorquí,7706,True,38.08097088023894,-1.2547800150354471
+Teatro Municipal Mónaco de Onda,630,Onda,25547,True,39.963309875592586,-0.2661782343508834
+Unión Musical Santa Cecilia de Onda,570,Onda,25547,True,39.963309875592586,-0.2661782343508834
+Palacio de la Música(Centro Instructivo Musical La Armónica) de Buñol,496,Buñol,9579,True,39.4184213219578,-0.7911724803954858
+Teatro Victoria de Monzón,490,Monzón,17839,True,41.910375593019005,0.1975539468705756
+Teatre Nou de La Passió(Teatre La Passió) de Olesa de Montserrat,1493,Olesa de Montserrat,24446,True,41.54249215,1.895175320157385
+Estudio 2 - Manuel Galiana de Madrid,48,Madrid,3416771,True,40.40314235,-3.702608392891478
+Centre Cultural Sant Joan de Viladecans,332,Viladecans,67348,True,41.31713577927642,2.0189265120291946
+Centro Cultural Caja de Burgos de Miranda de Ebro,405,Miranda de Ebro,36018,True,42.686833,-2.9431848
+Cine Doga de Nájera,435,Nájera,8059,True,42.41662168612729,-2.7349491236490016
+Teatro Galán de Santiago de Compostela,101,Santiago de Compostela,99536,True,42.8750372,-8.543196109437952
+Sala Santiago(Palacio de Congresos y Exposiciones de Galicia) de Santiago de Compostela,1580,Santiago de Compostela,99536,True,42.88636117455872,-8.51305821166838
+Sala Compostela(Palacio de Congresos y Exposiciones de Galicia) de Santiago de Compostela,520,Santiago de Compostela,99536,True,42.88636117455872,-8.51305821166838
+Auditorio(Teatro Afundación) de Vigo,460,Vigo,293997,True,42.237711889761776,-8.724145071872334
+Centro Municipal de Cultura American Lake de Gavà,240,Gavà,48007,True,41.30198,2.0052241825056987
+Teatre L´Aurora(Unicoop Cultural) de Igualada,110,Igualada,41466,True,41.5808873,1.616872
+Auditorio María Feliu(Casal de Cultura) de Barberà del Vallès,210,Barberà del Vallès,33322,True,41.51647723651727,2.127539680187286
+Teatre Municipal de Palafrugell,470,Palafrugell,23848,True,41.90743172671407,3.170076752172711
+Salón de Actos(Casa de la Cultura Miguel de Cervantes) de Estepa,150,Estepa,12373,True,37.289950950000005,-4.879214522395001
+Teatro Garnelo de Montilla,307,Montilla,22298,True,37.59039936548171,-4.638145522962262
+Centro Cívico Cultural de Mairena del Aljarafe,358,Mairena del Aljarafe,47898,True,37.34468730510477,-6.064169745890366
+Centro Cultural Casa Grande de Ayamonte,206,Ayamonte,21645,True,37.21414527946044,-7.404435785888186
+Auditorio Principal(Complejo Cultural San Francisco) de Cáceres,600,Cáceres,96441,True,39.465073586095095,-6.367360395696816
+Teatro(Centro Cultural Paco Rabal) de Madrid,358,Madrid,3416771,True,40.3794597,-3.6611134
+Auditorio Azorín(Caja de Ahorros del Mediterráneo) de Yecla,121,Yecla,35521,True,38.612716,-1.1147093
+Aula de Cultura(Centro Cultural de la C.A.M.) de Jumilla,228,Jumilla,26784,True,38.4742600719118,-1.3253782328561463
+Salón de Actos(Casa de Cultura) de Cehegín,288,Cehegín,14485,True,38.0874371,-1.771723588805792
+Sala Moratín(Teatre Cine Rialto) de Valencia,70,València,825948,True,39.4709608,-0.3762924
+Teatro del Carmen de Vélez-Málaga,389,Vélez-Málaga,85990,True,36.78241695,-4.10409163050648
+Salón de Actos(Casa de Cultura) de Bollullos Par del Condado,360,Bollullos Par del Condado,14263,True,37.34098831251151,-6.5364518012539055
+Teatro Municipal de Armilla,450,Armilla,25059,True,37.14570337772816,-3.626442806875312
+Auditorio Municipal de Fuente Álamo,2115,Fuente Álamo de Murcia,18063,False,37.71997515458607,-1.172529392940185
+Salón de Actos(Casa de Cultura) de Fuente Álamo,300,Fuente Álamo de Murcia,18063,True,37.722190002162144,-1.1714656431702626
+Aula de Cultura(Caja de Ahorros del Mediterráneo) de Cieza,180,Cieza,35286,True,38.237317563099474,-1.421177843924908
+Teatro(Centro Cultural San Juan Bautista) de Madrid,278,Madrid,3416771,True,40.45290360777537,-3.658725614323437
+Salón de Actos(Centro Cultural Príncipe de Asturias) de Madrid,256,Madrid,3416771,True,40.43631995,-3.637450496900613
+Salón de Actos(Centro Cívico La Vaguada) de Madrid,210,Madrid,3416771,True,40.47739384540435,-3.71406497902319
+Salón de Actos(Centro Cultural La Elipa) de Madrid,256,Madrid,3416771,True,40.42552431502023,-3.649753472808265
+Salón de Actos(Centro Cultural de Usera) de Madrid,206,Madrid,3416771,True,40.384983484196354,-3.711741031274833
+Salón de Actos(Centro Cultural Buenavista) de Madrid,210,Madrid,3416771,True,40.4320578,-3.6709224693593168
+Gran Teatro(Gran Teatro del Parque de Atracciones) de Madrid,2533,Madrid,3416771,True,40.4256828,-3.7524319
+Sala Palmireno(Facultad de Geografía e Historia) de Valencia,179,Canals,13162,True,38.9626255,-0.5872182
+Salón de Actos(Centre Cultural Bancaixa) de Valencia,291,València,825948,True,39.47346765,-0.3701910513027887
+Auditorio(Casal Pere IV) de Sabadell,120,Sabadell,222177,True,41.54585025459095,2.109363154063099
+Sala Xavier Fàbregas(Teatreneu) de Barcelona,390,Barcelona,1702547,True,41.40317110719357,2.158355589565045
+Sala Café Teatre(Teatreneu) de Barcelona,100,Barcelona,1702547,True,41.40317110719357,2.158355589565045
+Sala NASA de Santiago de Compostela,175,Santiago de Compostela,99536,True,42.878357,-8.554488723705012
+Salón de Actos(Aula de Cultura Caixa Galicia) de Santiago de Compostela,311,Santiago de Compostela,99536,True,42.8759927,-8.5482821
+Sala Mozart(Auditorio de Galicia) de Santiago de Compostela,320,Santiago de Compostela,99536,True,42.890768392573385,-8.543218424980289
+Salón Teatro de Santiago de Compostela,272,Santiago de Compostela,99536,True,42.87844005,-8.543989260300311
+Auditorio(Pazo da Cultura) de Pontevedra,772,Pontevedra,83077,True,42.43722613812421,-8.640131660096419
+Auditorio Semana Verde de Silleda,624,Silleda,8876,True,42.70341185,-8.244877599999999
+Teatro Cánovas(I.E.S. Cánovas del Castillo) de Málaga,370,Málaga,591637,True,36.7283141,-4.418671402530196
+Auditorio Cueva de Nerja(Centro Cultural Villa de Nerja) de Nerja,335,Nerja,21913,True,36.7466988,-3.878259
+Salón de Actos(Casa de la Cultura) de Maracena,140,Maracena,22275,True,37.20794086767435,-3.6326544551591904
+Teatro España de La Palma del Condado,425,La Palma del Condado,10726,True,37.387486550000006,-6.553453553349517
+Auditorio(Centro Cultural Casa del Reloj) de Madrid,276,Madrid,3416771,True,40.3944347,-3.7003451
+Nave de Terneras(Centro Cultural Casa del Reloj) de Madrid,450,Madrid,3416771,True,40.3944347,-3.7003451
+Salón de Actos(Centro Cultural El Madroño) de Madrid,330,Madrid,3416771,True,40.407452151376,-3.608244494090804
+Teatro(Centro Cultural Meseta de Orcasitas) de Madrid,474,Madrid,3416771,True,40.3695029,-3.7077019
+Teatro(Centro Cultural Orcasur) de Madrid,250,Madrid,3416771,True,40.3671755,-3.7010120636554618
+Sala 1(Teatro Estudio de Madrid) de Madrid,30,Madrid,3416771,True,40.4117886,-3.702902803173452
+Sala Municipal de Teatro Nuria Espert de Fuenlabrada,300,Fuenlabrada,190790,True,40.30172921423628,-3.832247790972393
+Auditorio Municipal Narón de Narón,404,Narón,39285,True,43.50040895,-8.19209294801854
+Sala Ángel Brage(Auditorio de Galicia) de Santiago de Compostela,1030,Santiago de Compostela,99536,True,42.890768392573385,-8.543218424980289
+Aula de Cultura(Edificio Liceo) de Betanzos,258,Betanzos,13082,True,43.281014850000005,-8.211328094254032
+Auditorio Gustavo Freire de Lugo,888,Lugo,99482,True,43.023506,-7.5630757
+Sala A Capela(Centro Torrente Ballester) de Ferrol,200,Fene,12561,True,43.470541,-8.162312787902362
+Teatro Principal de Pontevedra,432,Pontevedra,83077,True,42.43244955,-8.646277003326023
+Teatro Municipal Pedro Pérez Fernández de Los Palacios y Villafranca,410,Los Palacios y Villafranca,38757,True,37.16221125,-5.922328771257814
+Teatro Moderno(Casa de la Cultura) de Chiclana de la Frontera,400,Chiclana de la Frontera,89794,True,36.41998004510542,-6.1481062751413855
+Auditorio Villa de Salobreña José Martín Recuerda(Ayuntamiento) de Salobreña,376,Salobreña,12562,True,36.7461386,-3.5869727159821707
+Salón de Actos(Centro Cultural Casa de Vacas) de Madrid,140,Madrid,3416771,True,40.418707536938335,-3.684514376970532
+Sala Sinfónica(Auditorio Nacional de Música) de Madrid,2324,Madrid,3416771,True,40.44598295,-3.67767757011008
+Sala de Cámara(Auditorio Nacional de Música) de Madrid,692,Madrid,3416771,True,40.44598295,-3.67767757011008
+Sala Ático Teatro de Getafe,190,Getafe,189906,True,40.30799415,-3.729284291921488
+Salón de Actos(Casa de Cultura) de Lugones-Siero,200,Siero,52593,True,43.40188681694829,-5.803743582470974
+Salón de Actos(Casa de Cultura) de Pravia,352,Pravia,7830,True,43.48910639729898,-6.11177321262076
+Sala 3(Cines BOX) de Trasona-Corvera,330,Corvera de Asturias,15612,True,43.54979708346668,-5.877851503592999
+Sala 4(Cines BOX) de Trasona-Corvera,391,Corvera de Asturias,15612,True,43.54979708346668,-5.877851503592999
+Espacio Escénico Plaza de La Habana(Escuela Municipal de Música) de Posada de Llanera,300,Llanera,13948,True,43.44114405,-5.852638734941104
+Sala Sinfónica(L´Auditori) de Barcelona,2203,Badalona,227083,True,41.44790818783396,2.2218889556810115
+Sala Polivalente(L´Auditori) de Barcelona,376,Badalona,227083,True,41.44790818783396,2.2218889556810115
+Sala Talía(Centro Social Polivalente) de Toledo,367,Toledo,86526,True,39.86478515,-3.949004685035463
+Salón de Actos(Caja Rural de Toledo) de Toledo,700,Toledo,86526,True,39.86947180292253,-4.033217639206809
+Teatro Cervantes de Sonseca,420,Sonseca,11205,True,39.67580475,-3.972857367858512
+Teatro Echegaray de Sonseca,250,Sonseca,11205,True,39.67727583885094,-3.973362563410944
+Teatro Cuyás de Las Palmas de Gran Canaria,937,Las Palmas de Gran Canaria,380436,True,28.107075300044585,-15.418113115037135
+Teatro(Caja Duero) de Salamanca,400,Salamanca,144866,True,40.96765705,-5.665236705191171
+Sala Mayor(Palacio de Congresos y Exposiciones) de Salamanca,1064,Salamanca,144866,True,40.96282170485971,-5.669002007605199
+Sala Menor(Palacio de Congresos y Exposiciones) de Salamanca,400,Salamanca,144866,True,40.96282170485971,-5.669002007605199
+Teatro Liceo de Salamanca,701,Salamanca,144866,True,40.966265,-5.662717979304043
+Teatro Cervantes de Béjar,518,Béjar,12021,True,40.38744205253995,-5.769708267363023
+Auditorio Fundación Ávila de Ávila,330,Ávila,58111,True,40.655247315196576,-4.699310879669194
+Gran Teatre del Liceu de Barcelona,2321,Barcelona,1702547,True,41.3805684,2.1735383
+La Gorga(Centre Cultural La Gorga) de Palamós,322,Palamós,18293,True,41.8472644,3.1286929
+Teatre Joan Colet de Calafell,435,Calafell,30631,True,41.19153942933766,1.5693491862324305
+Teatro Guiniguada de Las Palmas de Gran Canaria,578,Las Palmas de Gran Canaria,380436,True,28.10180356479341,-15.4153989206741
+Auditorio Municipal La Granja de Ciudad Real,3000,Ciudad Real,75909,False,38.97846679754952,-3.949367808129152
+Casa de Cultura de Miguelturra,310,Miguelturra,15769,True,38.96622938010808,-3.8903291767724486
+Teatro Auditorio Municipal de Alcázar de San Juan,850,Alcázar de San Juan,30928,True,39.39117965127871,-3.202524319272225
+Casa de Cultura de Herencia,188,Herencia,8385,True,39.365919568162,-3.3552929959692688
+Teatro Principal de Mora,535,Mora,9782,True,39.68328696317235,-3.774599024433292
+Casa de Cultura de Fuensalida,467,Fuensalida,12329,True,40.0513947,-4.207274898378991
+Cine Teatro Municipal de Pedro Muñoz,550,Pedro Muñoz,7480,True,39.40650715734783,-2.94739493698802
+Teatro Cine Rex de Socuéllamos,476,Socuéllamos,12123,True,39.27872067733908,-2.7957286782053807
+Auditorio(Casa de Cultura) de La Solana,251,La Solana,15242,True,38.94175695,-3.2374546766879373
+Auditori Teatre La Lira(La Lira Ampostina) de Amposta,530,Amposta,22270,True,40.7111531,0.5775035
+Sala Margarita Xirgú de Castelldefels,430,Castelldefels,69450,True,41.283416564138925,1.979554473147577
+Casa de Cultura de Motilla del Palancar,252,Motilla del Palancar,6119,True,39.563312870923205,-1.911729515606948
+Auditorio Municipal de Las Pedroñeras,390,Las Pedroñeras,6638,True,39.44529245297321,-2.6669943026114926
+Iglesia de San Miguel de Cuenca,340,Cuenca,53429,True,40.07852641219936,-2.131010197973211
+Casa de Cultura de Azuqueca de Henares,388,Azuqueca de Henares,35498,True,40.5654677685206,-3.267480370127622
+Cine Teatro Sanchiz de Tarazona de la Mancha,341,Tarazona de la Mancha,6138,True,39.26397065,-1.917256986771452
+Auditorio(Palacio de Pedro I) de Torrijos,331,Torrijos,13885,True,39.98265985,-4.288004765124555
+Teatro Coliseo de Palma del Río,732,Palma del Río,20688,True,37.69465003477922,-5.282435016847996
+Teatro Municipal Alcalde J. M. Santana de Lepe,547,Lepe,28813,True,37.258475123837705,-7.209719894579748
+Palacio de la Paz de Fuengirola,2000,Fuengirola,85859,True,36.54991311338779,-4.622212414929295
+Gran Teatre Antonio Ferrandis de Paterna,535,Paterna,74822,True,39.49839615879464,-0.4376393400492943
+Casa de Cultura de Bargas,310,Bargas,10978,True,39.93998217696075,-4.014792424159635
+Centre Parroquial Victoria de Sóller,250,Sóller,13610,True,39.76732065,2.7159981
+Auditori d´Alcúdia de Alcúdia,477,Alcúdia,21322,True,39.8521927,3.118502
+Teatre d´Artà de Artà,480,Artà,8208,True,39.69207450199203,3.349035931693187
+Teatro Principal de Almansa,428,Almansa,24282,True,38.86939855650772,-1.0955308139590227
+Casa de Cultura de Hellín,250,Hellín,30516,True,38.51275595,-1.703325621049632
+Anfiteatro(Parque de la Rosaleda) de Hellín,2000,Hellín,30516,False,38.50798897448338,-1.7041965395867067
+Teatro Palenque de Talavera de la Reina,643,Talavera de la Reina,84738,True,39.95946348129902,-4.832829267530927
+Auditorio Municipal(Casa de Cultura) de Caudete,434,Caudete,10146,True,38.70783071298583,-0.9867390759065686
+Casa de Cultura Eleazar Huerta de Tobarra,300,Tobarra,7824,True,38.5906557,-1.6882679
+Corral de Comedias de Almagro,300,Almagro,8958,False,38.8883154,-3.711851654314615
+Teatro Municipal de Almagro,530,Almagro,8958,True,38.890479052757975,-3.711891193873612
+Teatre El Magatzem(Cooperativa Obrera Tarraconense) de Tarragona,150,Reus,109930,True,41.1466454,1.1223143
+Teatre Municipal de Berga,780,Berga,16959,True,42.1028314,1.8435774850413225
+Teatre Zorrilla(Centre d´Arts Escèniques de Badalona) de Badalona,453,Badalona,227083,True,41.44980027642509,2.2503739974411534
+Corral de Comedias de Alcalá de Henares,167,Alcalá de Henares,200702,True,40.482647521784536,-3.3640047777685105
+Teatro Cervantes de Linares,530,Linares,55261,True,38.096321501455904,-3.6325500008696494
+Sala Principal(Auditorio Ciudad de León) de León,1150,León,122243,True,42.61039924343429,-5.586299156925257
+Sala Buero Vallejo(Teatro Auditorio Buero Vallejo) de Guadalajara,1003,Guadalajara,90909,True,40.63063578381471,-3.1730070103596977
+Sala Gran(Teatre Auditori) de Granollers,728,Granollers,64181,True,41.610893,2.2865393
+Palau Altea. Centre d´Arts de Altea,900,Altea,23820,True,38.598896371129904,-0.0574756840725299
+Sala de Dalt(Teatre Municipal) de Manacor,231,Manacor,47777,True,39.56791144158304,3.220255319653296
+Teatro Jofre de Ferrol,556,Ferrol,64218,True,43.482676350000006,-8.233587448755754
+Sala d´enmig(Teatre Municipal) de Manacor,150,Manacor,47777,True,39.56791144158304,3.220255319653296
+Sala de Baix(Teatre Municipal) de Manacor,141,Manacor,47777,True,39.56791144158304,3.220255319653296
+Sala Atlántida(Centro de Congresos) de Puerto de la Cruz,800,Puerto de la Cruz,30849,True,28.405508540191065,-16.55225150710583
+Teatro de La Granja(Casa de Cultura) de Santa Cruz de Tenerife,224,Santa Cruz de Tenerife,211359,True,28.46368833391658,-16.26664133448387
+Salón de Actos(Espacio Cultural CajaCanarias) de Santa Cruz de Tenerife,388,Santa Cruz de Tenerife,211359,True,28.469046650000003,-16.25051648113684
+Salón de Actos(Casa de Cultura) de Los Llanos de Aridane,140,Los Llanos de Aridane,20189,True,28.65897195,-17.913151453120214
+Teatro Jacinto Benavente(Centro Cultural La Pocilla) de Galapagar,417,Galapagar,35273,True,40.5828872,-4.0090314
+Teatro Lagrada de Madrid,66,Madrid,3416771,True,40.4026898,-3.7028771
+Sala Multifuncional de Ciempozuelos,240,Ciempozuelos,25866,True,40.15551193875269,-3.6280452698812167
+Teatro(Centro Cultural) de Guijuelo,218,Guijuelo,5484,True,40.55526736465488,-5.66663001394522
+Salón de Actos(Centro Cultural Miraltormes) de Salamanca,240,Salamanca,144866,True,40.96523939033124,-5.6489192546194245
+Sala de Usos Múltiples(Biblioteca Municipal Torrente Ballester) de Salamanca,250,Salamanca,144866,True,40.97902776546631,-5.656482842101768
+Iglesia Vieja de Pizarrales de Salamanca,175,Salamanca,144866,True,40.9778952,-5.675888014679911
+Teatre Fabià Puigserver(Teatre Lliure) de Barcelona,720,Barcelona,1702547,True,41.37101785,2.157487924475435
+Espai Lliure(Teatre Lliure) de Barcelona,172,Barcelona,1702547,True,41.37101785,2.157487924475435
+Espai Escènic Joan Brossa de Barcelona,60,Barcelona,1702547,True,41.3868531,2.1811924
+Teatre Novedades de Barcelona,1678,Olesa de Montserrat,24446,True,41.54661355651471,1.8788306727167727
+Teatre de La Garriga - El Patronat de La Garriga,388,la Garriga,17052,True,41.68174869381033,2.287778965381654
+Palacio de Congresos-Casa Colón de Huelva,822,Huelva,143290,True,37.2546969,-6.946923527365287
+Teatro Municipal Puerta del Andévalo de Valverde del Camino,458,Valverde del Camino,12655,True,37.57687448741862,-6.750715102177814
+Teatro(Centro Cultural de la Villa) de La Rinconada - San José,447,La Rinconada,40529,True,37.48782158027632,-5.936749945193333
+Teatro Mira de Amescua de Guadix,415,Guadix,18527,True,37.3005505083102,-3.135081302142965
+Sala Joaquín Turina(Centro Cultural El Monte) de Sevilla,478,Sevilla,687488,True,37.393132050000006,-5.992827858685221
+Auditorio I(Palacio de Congresos) de Valencia,1481,València,825948,True,39.49619935,-0.4020570971416736
+Stage 1(Teatro Fígaro) de Madrid,606,Madrid,3416771,True,40.413420900000006,-3.703567297439396
+Teatro Coliseum de Madrid,1451,Madrid,3416771,True,40.4232763,-3.710327
+Teatro Mayor de Madrid,322,Aranjuez,62292,True,40.0547419,-3.5654382
+El Pavón Teatro  Kamikaze de Madrid,501,Madrid,3416771,True,40.4101087,-3.706106386978192
+Teatro Municipal Francisco Rabal de Pinto,490,Pinto,56003,True,40.243601434633774,-3.693333457931193
+Teatro Cervantes de Valladolid,382,Valladolid,300618,True,41.64968209457297,-4.722284349678461
+Centro de las Artes Escénicas y de la Música de Salamanca,1434,Salamanca,144866,True,40.961247885414544,-5.652361126945559
+Sala Petita(Teatre Auditori) de Granollers,221,Granollers,64181,True,41.6108404,2.2866092
+SAT! Sant Andreu Teatre de Barcelona,383,Barcelona,1702547,True,41.43216522502491,2.188736693719356
+Centre Cultural Cardedeu de Cardedeu,298,Cardedeu,19023,True,41.63717837864228,2.3605800480806125
+Sala Teatre Ramón Romagosa(Patronat Cultural i Recreatiu) de Cornellà de Llobregat,236,Cornellà de Llobregat,91589,True,41.35350769830341,2.0725671010921256
+L´Estruch de Sabadell,190,Sabadell,222177,True,41.55466570766435,2.1019174933715803
+Auditorio(Zalla Zine-Antzokia) de Zalla,456,Zalla,8319,True,43.2119655,-3.1369375
+Auditorio(Bastero Kulturgunea) de Andoain,500,Andoain,14555,True,43.2176847,-2.0214087
+Teatre Comarcal de Solsona,364,Solsona,9171,True,41.9957846,1.5170949
+Teatre Principal de Arenys de Mar,274,Arenys de Mar,16342,True,41.580607150000006,2.5497721699242675
+Teatre de Blanes de Blanes,411,Blanes,42198,True,41.6749069,2.7916884
+Petit Palau(Palau de la Música Catalana) de Barcelona,550,Badalona,227083,True,41.44852275,2.24922325
+Auditorio Aurelio Guirao(Centro Cultural Géneros de Punto) de Cieza,317,Cieza,35286,True,38.23618409733887,-1.419053046744697
+Auditorio Montserrat Caballé(Conservatorio) de Arganda del Rey,514,Arganda del Rey,59513,True,40.2964322,-3.4317775
+Teatro Villa de Molina de Molina de Segura,592,Molina de Segura,77493,True,38.05735839436808,-1.2071163086935734
+Salón de Actos(Centro Cultural Pablo Iglesias) de Alcobendas,200,Alcobendas,121373,True,40.5415776,-3.64170995
+Sala Valle-Inclán(Teatro Valle-Inclán) de Madrid,504,Madrid,3416771,True,40.40904187481984,-3.701169033558231
+Sala Francisco Nieva(Teatro Valle-Inclán) de Madrid,114,Madrid,3416771,True,40.40904187481984,-3.701169033558231
+Auditorio Conde Duque(Espacio Cultural Conde Duque) de Madrid,400,Madrid,3416771,True,40.42758417324644,-3.710375265135687
+Teatro Tarambana de Madrid,90,Madrid,3416771,True,40.3857597,-3.74325
+Teatro Circo Price de Madrid,2142,Madrid,3416771,True,40.4059808,-3.698596
+Sala Capitol(Cines Capitol) de Madrid,1373,Madrid,3416771,True,40.4205118,-3.7066782
+Teatro Infanta Isabel de Madrid,668,Madrid,3416771,True,40.4221905,-3.695385613120063
+Teatro Maravillas de Madrid,0,Madrid,3416771,True,40.4286717,-3.7030547
+Mira Teatro de Pozuelo de Alarcón,573,Pozuelo de Alarcón,89378,True,40.4380584,-3.81831833019282
+Teatro Gran Vía de Madrid,1020,Madrid,3416771,True,40.4223397,-3.7088477
+Pequeño Teatro Gran Vía(Teatro Gran Vía) de Madrid,307,Madrid,3416771,True,40.4223397,-3.7088477
+Auditorio 400(Museo Nacional Centro de Arte Reina Sofía) de Madrid,425,Madrid,3416771,True,40.4080495,-3.694421591348541
+Auditorio Eduardo del Pueyo(Conservatorio Superior de Música de Aragón) de Zaragoza,484,Zaragoza,686986,True,41.63625105,-0.9116254982077102
+Salón de actos(Colegio Jesús María - El Salvador) de Zaragoza,974,Zaragoza,686986,True,41.6319857,-0.900311928732564
+Auditorio(Casa de Cultura) de Bolaños de Calatrava,464,Bolaños de Calatrava,11991,True,38.90731121437902,-3.663980526892733
+Teatro José Monleón(Centro Cívico José Saramago) de Leganés,497,Leganés,194084,True,40.33586725847492,-3.774537140371881
+Teatro(Centro Cultural Tomás y Valiente) de Fuenlabrada,765,Fuenlabrada,190790,True,40.29268945,-3.791357161212739
+Sala Guirau(Teatro Fernán Gómez) de Madrid,689,Madrid,3416771,True,40.4249426,-3.6898769
+Sala Jardiel Poncela(Teatro Fernán Gómez) de Madrid,170,Madrid,3416771,True,40.4249426,-3.6898769
+BARTS de Barcelona,943,Barcelona,1702547,True,41.3751435,2.1695665
+Sala Oberta(Teatre Auditori) de Granollers,0,Granollers,64181,False,41.6108404,2.2866092
+Teatro de las Esquinas de Zaragoza,492,Zaragoza,686986,True,41.65170871531375,-0.9102445312303808
+Sala Experimental(Teatro Zorrilla) de Valladolid,86,Valladolid,300618,False,41.651653,-4.7280698
+Auditorio(Cultural Internacional Oscar Niemeyer) de Avilés,951,Avilés,75351,True,43.55706828001154,-5.914646874856476
+Sala Club(Cultural Internacional Oscar Niemeyer) de Avilés,300,Avilés,75351,False,43.55706828001154,-5.914646874856476
+Sala Petita(Teatre Kursaal) de Manresa,200,Manresa,80201,True,41.73057848701141,1.8267736762268896
+Sala Gran(Teatre Kursaal) de Manresa,803,Manresa,80201,True,41.73057848701141,1.8267736762268896
+Sala Gran(Porta 4  L’Autèntica) de Barcelona,50,Barcelona,1702547,True,41.40943945,2.1601866000000003
+Teatro Rambal de Utiel,1032,Utiel,11632,True,39.567055,-1.2025952
+Teatro Gaztambide de Tudela,680,Tudela,37247,True,42.05776659785827,-1.5921312657577882
+La Sala Miguel Hernández de Sabadell,303,Sabadell,222177,True,41.56912470551838,2.0849683456008736
+Teatre Cinema(Foment Mataroní) de Mataró,487,Mataró,131798,True,41.54091489266914,2.4450620824228118
+Teatro Don Quijote de Consuegra,427,Consuegra,9805,True,39.46125452585063,-3.607493017879844
+Teatro Municipal de La Bañeza,480,La Bañeza,10047,True,42.2989541537693,-5.897571625064852
+Centro Cultural Carlos Cano de La Zubia,360,La Zubia,19885,True,37.11932127197,-3.5832945283977
+Cava Alta(OFF de La Latina) de Madrid,0,Madrid,3416771,True,40.4120424,-3.7119519
+Cava Baja(OFF de La Latina) de Madrid,0,Madrid,3416771,True,40.4120424,-3.7119519
+Sala Lola Membrives(Teatro Lara) de Madrid,120,Madrid,3416771,False,40.4221297,-3.7043663
+Teatro Oriente de Morón de la frontera,358,Morón de la Frontera,27229,True,37.12139624642497,-5.451603421728504
+Teatro Auditorio Alcalde Felipe Benítez de Rota,480,Rota,29675,True,36.6222238217859,-6.360792669307931
+Sala Margarita Xirgú(Teatro Español) de Madrid,107,Madrid,3416771,True,40.4258351,-3.6802814
+Auditorio(Palacio de Congresos El Greco) de Toledo,975,Toledo,86526,True,39.86086872745365,-4.020367117823353
+Auditorio(Sede Afundación) de Pontevedra,0,Pontevedra,83077,True,42.428761517209786,-8.645319073519506
+El Canal Centre d´arts escèniques de Salt,300,Salt,33242,True,41.9776893,2.797251770384216
+Sala Trono de Tarragona,135,Tarragona,141151,True,41.114235330696005,1.2533015549147222
+Sala principal(Auditori Teatre Espai Ter) de Torroella de Montgrí,619,Torroella de Montgrí,12356,True,42.03975931228198,3.121712218423036
+La Puntual de Barcelona,50,Barcelona,1702547,True,41.38676645,2.181082244250103
+Sala Ultramar de Valencia,0,València,825948,True,39.4673331,-0.3849112
+Teatre Flumen de Valencia,400,València,825948,True,39.48271034509881,-0.3864550328972903
+Teatre El Musical de Valencia,402,València,825948,True,39.4646179,-0.3320625
+Teatre Principal de Sabadell,506,Sabadell,222177,True,41.5419559928293,2.108329064152122
+Teatro(Biblioteca de Catalunya) de Barcelona,0,Granollers,64181,False,41.61551987825777,2.2943428324105044
+Sala Manuel de Falla(Palacio de Exposiciones y Congresos) de Granada,547,Granada,232717,True,37.16438218344076,-3.600149352892576
+Teatro Príncipe Felipe de Tegueste,245,Tegueste,11344,True,28.523096979012003,-16.339400624804092
+	 Sala Manuel Alonso Zapata(Centro Cultural Nicolás Salmerón) de Madrid,234,Madrid,3416771,True,40.44627373887498,-3.675562967941097
+Teatre Tarragona de Tarragona,686,Tarragona,141151,True,41.117390400000005,1.24917985
+Auditorio(Centro de Arte) de Alcobendas,344,Alcobendas,121373,True,40.54098986226027,-3.630983490177077
+Arte&Desmayo de Madrid,45,Madrid,3416771,True,40.39363254620364,-3.713117489191545
+Centro Cultural Sanchinarro de Madrid,404,Alcalá de Henares,200702,True,40.49879620320766,-3.3513613827182698
+El Umbral de Primavera de Madrid,60,Madrid,3416771,False,40.4095115,-3.7004024
+ Karpas Teatro(Karpas Teatro) de Madrid,60,Madrid,3416771,True,40.4082928,-3.69321345
+Auditorio(La Casa Encendida) de Madrid,167,Madrid,3416771,True,40.40607055,-3.699885169087702
+La Nao 8 de Madrid,50,Madrid,3416771,True,40.42196855,-3.7039386
+Sala de teatro(Nave 73) de Madrid,90,Madrid,3416771,False,40.4039759,-3.694602
+ArtEspacio Plot Point de Madrid,60,Madrid,3416771,True,40.401947,-3.7020506
+Sala García Lorca(Real Escuela Superior de Arte Dramático-RESAD) de Madrid,60,Madrid,3416771,True,40.41034485,-3.6745603283650414
+Sala Maldonado 53(Fundación Progreso y Cultura) de Madrid,0,Madrid,3416771,False,40.43385115,-3.6789333970498
+Sala El Mirlo Blanco(Teatro Valle-Inclán) de Madrid,68,Madrid,3416771,True,40.40904187481984,-3.701169033558231
+Sala Nueve Norte de Madrid,50,Madrid,3416771,False,40.36658712344774,-3.752959475560566
+Teatro del Arte TDA de Madrid,120,Madrid,3416771,False,40.40940195426299,-3.698055814744008
+Teatro Victoria de Madrid,120,Madrid,3416771,True,40.4238274,-3.7059039
+Teatro de la Puerta Estrecha de Madrid,80,Madrid,3416771,False,40.4063673,-3.7005093
+Teatro Hespérides. Auditorio Ciudad de Guía de Santa María de Guía,358,Santa María de Guía de Gran Canaria,13948,True,28.13929551268558,-15.633390302994078
+Centro Cultural Norte Universidad de Móstoles,153,Móstoles,214006,True,40.33564719668212,-3.865266922172974
+Centro Cultural Medina Elvira de Atarfe,650,Atarfe,20024,True,37.222502165354825,-3.685343987038943
+Teatro Imperial de Loja,248,Loja,20580,True,37.16633080318071,-4.15287921818471
+Salón de Actos(Casa de Cultura) de Fuengirola,161,Fuengirola,85859,True,36.54019144694964,-4.624913228802098
+Palacio de las Artes Escénicas y de la Música de Churriana de la Vega,256250,Churriana de la Vega,16445,True,37.14643610026305,-3.647489008332737
+Teatro-Cinema Corrales de Aljaraque,326,Aljaraque,22259,True,37.2741736826448,-6.98909928697079
+Teatro Dulce Chacón de Parla,220,Parla,134833,True,40.236247364804754,-3.7780248726337446
+Casa de la Cultura(Teatro Isaac Albéniz) de Parla,240,Parla,134833,True,40.24682975647683,-3.76993622548912
+Auditorio Edgar Neville(Auditorio Edgar Neville ) de Málaga,391,Málaga,591637,True,36.6887362,-4.44635152392371
+Salón de Actos(Centro Cultural) de Paracuellos de Jarama,246,Paracuellos de Jarama,27000,True,40.50500073965848,-3.532944288958528
+Auditorio 200(Museo Nacional Centro de Arte Reina Sofía) de Madrid,200,Madrid,3416771,True,40.4080495,-3.694421591348541
+Sala Albacete(Palacio de Congresos Ciudad de Albacete) de Albacete,1040,Albacete,174137,True,39.01680432065336,-1.8726265073213728
+Teatro Auditorio de Argamasilla de Alba,415,Argamasilla de Alba,6888,True,39.13368362899485,-3.093989743836457
+Teatro Ramos Carrión de Zamora,590,Zamora,59506,True,41.5022739,-5.747218190052266
+Auditorio(Forum Evolución) de Burgos,1371,Burgos,175895,True,42.34048797522326,-3.694581997575559
+Sala de Congresos(Forum Evolución) de Burgos,492,Burgos,175895,True,42.34048797522326,-3.694581997575559
+Teatro San Francisco de León,270,León,122243,True,42.59250632908927,-5.571038785909416
+Espacio Escénico(Espacio Joven Vías) de León,260,León,122243,True,42.60283705,-5.574953024999999
+Auditorio Municipal de Herencia,557,Herencia,8385,True,39.3704635,-3.34955715
+Sala Experimental(Centro Cultural Miguel Delibes) de Valladolid,450,Valladolid,300618,True,41.6446554,-4.7561765
+Sala 1 Fronteriza(Teatros Luchana) de Madrid,118,Madrid,3416771,True,40.43001042763049,-3.70073072346936
+Sala 2 Principal(Teatros Luchana) de Madrid,290,Madrid,3416771,True,40.43001042763049,-3.70073072346936
+Sala 3 Vertical(Teatros Luchana) de Madrid,110,Madrid,3416771,True,40.43001042763049,-3.70073072346936
+Sala 4 Horizontal(Teatros Luchana) de Madrid,119,Madrid,3416771,True,40.43001042763049,-3.70073072346936
+Sala Manuel García(Teatro de la Maestranza) de Sevilla,225,Sevilla,687488,False,37.3840732,-5.996668806707386
+Teatro Municipal Marcelo Grande de Tomelloso,695,Tomelloso,36304,True,39.16281733641713,-3.017470645375116
+Sala Principal(Cartuja Center Cite) de Sevilla,2047,Sevilla,687488,True,37.40962721695461,-6.005995210007297
+Sala 2(Cartuja Center Cite) de Sevilla,273,Sevilla,687488,False,37.40962721695461,-6.005995210007297
+Sala Gayarre(Teatro Real) de Madrid,190,Madrid,3416771,True,40.41815215,-3.709463045445115
+Sala 2(Porta 4  L’Autèntica) de Barcelona,0,Barcelona,1702547,False,41.40887967470179,2.1591050364964657
+Sala 3(Porta 4  L’Autèntica) de Barcelona,0,Barcelona,1702547,False,41.40887967470179,2.1591050364964657
+Teatro Carolina de Valencia,215,València,825948,True,39.469159,-0.3524994
+Teatro Circo de Albacete,936,Albacete,174137,True,38.995719170022085,-1.8541413348101652
+Paraninfo Universitario(Pabellón de Gobierno de la Universidad) de Albacete,715,Albacete,174137,True,38.97765716940764,-1.854629093319649
+Teatro de la Paz de Albacete,704,Albacete,174137,True,39.0047159230487,-1.862493330256097
+Sala Negra(Auditorio y Palacio de Congresos Infanta Elena) de Águilas,705,Águilas,36862,True,37.407377977905774,-1.5791282337538517
+Sala Roja(Auditorio y Palacio de Congresos Infanta Elena) de Águilas,300,Águilas,36862,True,37.407377977905774,-1.5791282337538517
+Berango Antzokia de Berango,212,Berango,7454,True,43.35608150554612,-2.995023606213598
+Auditorio Nelson Mandela(Casa de la Cultura) de Sonseca,740,Sonseca,11205,False,39.67571694062714,-3.967783246038251
+Teatro de Príncipe Pío de Madrid,0,Madrid,3416771,True,40.42038707485973,-3.7160488192136847
+Sala Gran(L´Artesà) de El Prat de Llobregat,611,el Prat de Llobregat,66184,True,41.32990510919127,2.094839633502757
+Sala Petita(L´Artesà) de El Prat de Llobregat,141,el Prat de Llobregat,66184,True,41.32990510919127,2.094839633502757
+Espai L´Amistat de Premià de Mar,299,Premià de Mar,28767,True,41.48986875101297,2.3582851360659536
+Casino La Alianza del Poblenou de Barcelona,802,Barcelona,1702547,True,41.40195176869288,2.1999626405953454
+Teatro municipal (Teatro Municipal) de Coslada,740,Coslada,80760,True,40.4264916,-3.551890324876501
+Centro Cultural Pilar Miró de Madrid,200,Madrid,3416771,True,40.37975974807895,-3.61205632840618
+La Fornal de Manacor,50,Manacor,47777,True,39.570795,3.2175257
+Norte a la Izquierda de Valladolid,160,Valladolid,300618,True,41.66572198117967,-4.730997606219794
+Teatro Duque de Rivas. ESAD de Córdoba,339,Córdoba,322811,True,37.88151443615963,-4.780229434774982

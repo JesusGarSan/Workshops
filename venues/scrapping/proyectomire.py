@@ -43,9 +43,9 @@ def get_location(url):
     id_end = text.find("Teléfono:")
     if id_start==-1: lat=0;lon=0;town=None
     else:
-        text = text[id_start + len("Dirección del edificio:"):id_end]
+        address = text[id_start + len("Dirección del edificio:"):id_end]
         geolocator = Nominatim(user_agent="my_geocoding_app")
-        location = geolocator.geocode(text, addressdetails=True)
+        location = geolocator.geocode(address, addressdetails=True)
         if location is None: town=None; lat=None; lon=None
         else:
             lat = location.latitude
@@ -54,7 +54,7 @@ def get_location(url):
             for loc in ["town", "city", "vilalge", "county"]:
                 town = location.raw["address"].get(loc)
                 if town is not None: break
-    return town, lat, lon
+    return town, address, lat, lon
 
 def scrap_mire(url):
 
@@ -70,12 +70,13 @@ def scrap_mire(url):
 
     # Location
     suffix = "&d=1"
-    town, lat, lon = get_location(url+suffix)
+    town, address, lat, lon = get_location(url+suffix)
 
 
     return {
         "name": name,
         "town": town,
+        "address": address,
         "capacity": capacity,
         "roofed": roofed,
         "latitude": lat,
@@ -87,7 +88,7 @@ def scrap_mire(url):
 if __name__ == "__main__":
     filepath = "./venues/data/venue_data_scrap.csv"
     file_exists = os.path.exists(filepath)
-    columns = ["name", "town", "capacity", "roofed", "latitude", "longitude", "url"]
+    columns = ["name", "town", "address","capacity", "roofed", "latitude", "longitude", "url"]
 
     with open(filepath, 'a', newline='', encoding='utf-8') as archivo:
         writer = csv.DictWriter(archivo, fieldnames=columns)
