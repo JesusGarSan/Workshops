@@ -1,4 +1,4 @@
-# Nombre del taller: ¿Espacio o tiempo?
+# Nombre del taller: Decisiones espacio-temporales
 
 ## Etapa 1: Planteamiento del problema
 Problema:

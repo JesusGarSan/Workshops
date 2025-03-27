@@ -47,5 +47,6 @@ Esto se utiliza para la generación de datos (simulador).
 `cost` $\propto$ `population`, `capacity`, `weekday`, `roofed`\
 `weather`$\propto$ `weather` (autocorrelación temporal. El clima de mañana es parecido al de hoy)\
 `fans` $\propto$ `population`\
-`availability` $\propto$ `cost`$^{-1}$, `weekday`, `weather`*`roofed` (Estar techado es sólo relevante si se esperan precipitaciones)
+`availability` $\propto$ `cost`, `population`$^{-1}$, `weekday`, `weather`*`roofed` (Estar techado es sólo relevante / es más relevante si se esperan precipitaciones)
+
 

@@ -54,7 +54,7 @@ def get_location(url):
             for loc in ["town", "city", "vilalge", "county"]:
                 town = location.raw["address"].get(loc)
                 if town is not None: break
-    return town, address, lat, lon
+    return town, address.rstrip(), lat, lon
 
 def scrap_mire(url):
 
