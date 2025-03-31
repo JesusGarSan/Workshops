@@ -1,4 +1,6 @@
 streamlit
 pandas
 numpy
+geopy
+beautifulsoup4
 git+https://github.com/JesusGarSan/base_app

@@ -126,11 +126,11 @@ def generate_cost(data, var = 0.1):
     
     cost = np.zeros(len(data), dtype=float)
     cost = round(\
-            data['capacity']    * 50 * np.random.uniform(1-var, 1+var)+\
-            data['population'] *  5 * np.random.uniform(1-var, 1+var)+\
-            data['roofed'] * 100 * np.random.uniform(1-var, 1+var)+\
+            data['capacity']    * 100 * np.random.uniform(1-var, 1+var)+\
+            data['population'] *  50 * np.random.uniform(1-var, 1+var)+\
+            data['roofed'] * 10 * np.random.uniform(1-var, 1+var)+\
             data.apply(lambda row: weekday_factors[row['weekday']], axis=1)\
-                 * 100 * np.random.uniform(1-var, 1+var)
+                 * 10 * np.random.uniform(1-var, 1+var)
             , -1)
 
 
