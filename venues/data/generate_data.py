@@ -17,16 +17,16 @@ def generate_data(data, **kwargs):
     print(f"Adding time component to the data...")
     data = unfold_time(data, n_days, **kwargs)
     # Generate fans per town and day
-    print(f"Generatiing fans data...")
+    print(f"Generating fans data...")
     data = generate_fans(data, **kwargs)
     # Generate weather per town and day
-    print(f"Generatiing weather data...")
+    print(f"Generating weather data...")
     data = generate_weather(data, **kwargs)
     # Generate the cost of each venue each day
-    print(f"Generatiing cost data...")
+    print(f"Generating cost data...")
     data = generate_cost(data, **kwargs)
     # Generate the availability of each venue each day
-    print(f"Generatiing availability data...")
+    print(f"Generating availability data...")
     data = generate_availability(data, **kwargs)
 
     return data
@@ -55,34 +55,36 @@ def unfold_time(data, n_days, day_margin=30):
 Generate the number of fans that each town has each day
 """
 def generate_fans(data, popularity=0.25, var=0.1):
-
+    """
+    Genera el número de fans para cada ciudad y día, asegurando que 
+    la población correcta se aplique a cada ciudad.
+    """
     days = data['day'].unique()
     towns = data['town'].unique()
-    population = data[data['day'] == 0].groupby('town')['population'].first().values
-    population = data[data['day'] == 0]['population'].unique()
-    print(data['population'].unique())
-    print(len(data['population'].unique()))
-    print(population)
-    print(len(population))
-    N = len(towns)
     
+    population_dict = data[data['day'] == 0].groupby('town')['population'].first().to_dict()
+    
+    N = len(towns)
     M = len(days)
-    # First values
+    
     fans = np.zeros((N, M), dtype=int)
-    fans[:, 0] = np.clip((population * popularity * np.random.rand(N)).astype(int), 0, population)
-
-    # Next values
+    
+    for i, town in enumerate(towns):
+        population = population_dict[town]
+        fans[i, 0] = np.clip(int(population * popularity * np.random.rand()), 0, population)
+    
     for i in range(1, M):
-        fans[:, i] = np.clip((fans[:, i - 1] * np.random.uniform(1 - var, 1 + var, N)).astype(int), 0, population)
-
-
-    # Fill new dataframe
+        for j in range(N):
+            population = population_dict[towns[j]]
+            fans[j, i] = np.clip(int(fans[j, i - 1] * np.random.uniform(1 - var, 1 + var)), 0, population)
+    
     fans_dict = {}
     for i, town in enumerate(towns):
         for j, day in enumerate(days):
             fans_dict[(town, day)] = fans[i, j]
-
+    
     data['fans'] = data.apply(lambda row: fans_dict[(row['town'], row['day'])], axis=1)
+    
     return data
 
 """
@@ -164,8 +166,7 @@ if __name__ == '__main__':
     data = pd.read_csv('./venues/data/data_fused.csv')
 
     data = generate_data(data, n_days = 3)
-    print(data.head())
-    print(data.describe())
-
+    test = (data['fans'] <= data['population']).all()
+    print(test)
 
     data.to_csv('./venues/data/full_data.csv', index=False)

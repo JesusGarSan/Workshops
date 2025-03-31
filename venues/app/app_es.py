@@ -48,6 +48,7 @@ with tabs[-1]:
     with col[0]:
         with st.expander(''):
             time = st.checkbox("Representar información temporal")
+
         if time:
             max_day = max(full['day'])
             min_date = full[full['day']==0]['date'].unique()[0]
@@ -55,22 +56,26 @@ with tabs[-1]:
             date = st.date_input("Selecciona el día a mostrar",min_value=min_date, max_value = max_date)
             full['date'] = full['date'].dt.date
 
+            display_circles, radius, color_column, tips, colormap = maps.circle_config_form(full, True, 5000)
+            # color_column = st.selectbox("Color", full.columns)
         
     with col[1]:
         if not time:
             tips = {
                 "Nombre": 'name',
                 "Aforo": 'capacity',
+                "Techado": 'roofed',
             }
             map = maps.create_map()
-            maps.show_map(map, use_container_width=True)
+            circles, colormap = maps.get_circles(data=full, tips=tips, radius = 2000)
+            maps.show_map(map, feature_group_to_add=circles, use_container_width=True, returned_objects=[])
 
         if time:
             tips = {
                 "Nombre": 'name',
                 "Aforo": 'capacity',
                 "Localidad": "town",
-                "Habitantes": "population",
+                "Habitantes": color_column,
                 "Clima": 'weather',
                 "Precio": 'cost',
                 "Fans": 'fans',
@@ -78,7 +83,10 @@ with tabs[-1]:
                 "Disponibilidad": 'availability',
             }
             map = maps.create_map()
-            map = maps.add_circles(map,data=full)
-            maps.show_map(map, use_container_width=True)
+            circles, colormap = maps.get_circles(data=full, tips=tips, color_column = color_column, radius = radius)
+            colorbar = maps.create_colorbar(colormap,full[color_column], caption=color_column,)
+            colorbar.add_to(map)
+            maps.show_map(map, feature_group_to_add=circles, use_container_width=True, returned_objects=[])
+
 
 
