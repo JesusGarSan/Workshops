@@ -2,11 +2,12 @@
 
 ### Materiales
 - Ordenador con la aplicación en ejecución
-- Diapositivas de apoyo
+- Diapositivas de apoyo: https://docs.google.com/presentation/d/1w2AVW_gRL_B041YyEl0r-xgoKpdFwrReetLVYOdv7t0/
 - Proyector para el ordenador
 - Pizarra y utensilios de escritura
 - Folios y fiso
 - Rotuladores
+- Caramelos o similar como incentivo de participación
 
 ### Preparación
 - Conectar el ordenador al proyector
@@ -14,6 +15,7 @@
 - Tener la aplicación corriendo de fondo
 - Escribir los títulos de 3 columnas en la pizarra: "Espacial", "Temporal", "Espacio-temporal"
 - Tapar los títulos con folios y fiso
+- Tener los caramelos a mano
 
 ### Público
 Este taller está orientado a públicos adolescentes o adultos (>15 años).
@@ -56,7 +58,7 @@ Este taller se plantea altamente cooperativo con el público. Por tanto, es muy 
 
 - ¿Qué hacemos para organizar el evento y asegurar que sea un éxito?
 
-*Con el monitor como guía, dejaremosque el público proponga ideas. Queremos llegar a la conslución de que tenemos que tomar **decisiones**. En concreto:*
+*Con el monitor como guía, dejaremos que el público proponga ideas. Queremos llegar a la conclusión de que tenemos que tomar **decisiones**. En concreto:*
 
 - Decidir dónde hacer el concierto 
 - Decidir cuándo realizar el concierto
@@ -153,12 +155,27 @@ ___
         - Problema: Resulta que ese día es entre semana y hace mal tiempo.
 
 - Podríamos seguir yendo variable a variable y posiblemente llegaríamos a una decisión buena, pero no la mejor.
-- Al ir variable por variable estamos 
+- Al ir variable por variable estamos ignorando las posibles interacciones entre variables que discutimos antes
+- Si queremos considerarlas, necesitamos un enfoque que considere simultáneamente una multitud de variables, no sólo una. Necesitamos métodos **Multivariantes**, no **Univariantes**.
 ____
 
 
 
-## Etapa 4: Revelando lo aprendido
+## Etapa 4: Aplicaciones reales
+Una vez hemos entendido qué son los datos espaciotemporales y entendemos la importancia de utilizar métodos multivariantes, pasamos a mostrar algunas de las aplicaciones reales e investigación de este tipo de datos y métodos. Ejemplos:
+- Predicción de erupciones volcánicas
+- Cambio climático
+- Modelos de movilidad humana
+- Medicina de precisión contra el cáncer
+
+## Etapa 5: Fin
+Si hay tiempo suficiente, se puede plantear hacer un repaso, preguntando a los participantes acerca de conceptos explciados y aprovechadno la oportunidad para corregir fallos o aclarar dudas. Conceptos:
+
+1. ¿Qué son los datos espacio temporales?
+2. ¿Por qué son difíciles de analizar?¿Es importante saber cómo hacerlo?
+3. ¿Qué son los métodos multivariantes? ¿Por qué los utilizamos?
+4. Dime un ejemplo de campo en el que aparezcan datos espacio temporales. ¿Por qué son espacio temporales?
+
 
 
 ## Notas
@@ -168,32 +185,6 @@ ____
 #### Multiescala
 Este ejemplo es también de naturaleza multiescala. Espacialmente, nos podemos preguntar por en qué ciudad hacer el evento o en qué país. Temporalmente, podemos preguntarnos por la estación del año, mes semana dío u hora en la que hacer el concierto. Por simpleza, no haremos alusión a la naturaleza multiescala de este ejemplo. Sólo se mencionará como apunte al final si se valora que el público es receptivo ante este matiz.
 
-
-
-### Notas Veracruz:
-- El comienzo si puede ser del estilo: Plantear el problema, que sea de interés, captando la anteción, hablando hasta llegar a la conclusión de que tenemos que tomar dos decisiones: Dónde y Cuándo hacer el evento. Recoger la información interesante mediante la pizarra.
-
-
-- Una vez decididas las variables, explicadas las posibles relaciones y los que son distribuidos en el tiempo y en el espacio pasamos al ordenador
-
-- En el ordenador guio yo por completo. Puedo plantear una ruta interesante habiendo estudiado los datos antes. Por ejemplo:
-
-    - Mostrar toda la información, que es abrumadora.
-
-    - La mostramos en el mapa, es más asimilable, pero difícil de analizar.
-
-    - Podemos estudiar la información por separado.
-
-    - ¿Qué sitio es más barato? Resulta que el más barato es un pueblo perdido en el que a penas hay habitantes y no esperamos que vaya nadie.
-
-    - Vamos entonces a ver en qué localidad tiene más fans. Dentro de la que más fans tiene miramos el sitio con mayor aforo. Seleccionamos el día que sea más barato. Nos encontramos que ese día está ocupado. Nos vamos a el día más barato que no está ocupado. Esta decisión posiblemente sea buena, pero no la mejor. Resulta que el día que este día es entre semana y se prevee mal tiempo, por lo que seguramente no pueda ir tanta gente.
-
-    - Llegados hasta aquí, aunque sea "sacado de la manga", les planteo como mejor opción un recinto de la 2º ciudad con más fans, que resulta tener mucha mejor disponibilidad, de tal modo que a buen precio podemos encontrar un lugar con gran aforo en un día mejor. Esta respuesta es multivariante. Se ha obtenido considerando las diferentes variables y no una a una.
-
-
-## Puntos a resaltar:
-- Tenemos que tomar decisiones: ¿Dónde y Cuándo hacemos el evento?
-- Para tomar esas decisiones necesitamos información
 
 
 
