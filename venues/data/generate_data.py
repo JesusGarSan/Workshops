@@ -30,6 +30,7 @@ def generate_data(data, **kwargs):
     data = generate_availability(data, **kwargs)
 
     return data
+
 """
 Add the time dimension to the dataset
 """
@@ -103,8 +104,6 @@ def generate_weather(data):
     weather = np.zeros((N, M), dtype=int)
     weather[:, 0] = np.random.randint(0,len(options)-1, N)
     # Following values
-
-    
     # Next values
     for i in range(1, M):
         step = np.random.randint(0,3) -1
@@ -122,15 +121,15 @@ def generate_weather(data):
 
 
 def generate_cost(data, var = 0.1):
-    weekday_factors = [1,2,2,4,9,10,8]
+    weekday_factors = np.array([1,2,2,4,9,10,8])/10
     
     cost = np.zeros(len(data), dtype=float)
     cost = round(\
-            data['capacity']    * 100 * np.random.uniform(1-var, 1+var)+\
-            data['population'] *  50 * np.random.uniform(1-var, 1+var)+\
-            data['roofed'] * 10 * np.random.uniform(1-var, 1+var)+\
+            data['capacity']/ data['capacity'].abs().max()     * 20000 * np.random.uniform(1-var, 1+var)+\
+            data['population']/ data['population'].abs().max() *  10000 * np.random.uniform(1-var, 1+var)+\
+            data['roofed'] * 5000 * np.random.uniform(1-var, 1+var)*\
             data.apply(lambda row: weekday_factors[row['weekday']], axis=1)\
-                 * 10 * np.random.uniform(1-var, 1+var)
+                 * 1* np.random.uniform(1-var, 1+var)
             , -1)
 
 
