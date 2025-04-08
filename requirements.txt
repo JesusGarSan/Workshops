@@ -3,4 +3,5 @@ pandas
 numpy
 geopy
 beautifulsoup4
+unidecode
 git+https://github.com/JesusGarSan/base_app

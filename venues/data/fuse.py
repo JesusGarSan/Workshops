@@ -1,7 +1,5 @@
 import pandas as pd
 from unidecode import unidecode
-import os
-import csv
 
 def normalize_town(town_name):
     if isinstance(town_name, str): # Verify that the element is a string.

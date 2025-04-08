@@ -13,12 +13,18 @@ def generate_data(data, **kwargs):
     # Remove empty rows
     print(f"Removing rows with empty values...")
     data.dropna(inplace=True)
+    print(f"Removing venues with ''0'' capacity...")
+    data.dropna(inplace=True)
+    data = data.drop(data[data['capacity']==0].index)
+    # Add reviews
+    print(f"Adding reviews to the venue data...")
+    data = generate_reviews(data, **kwargs)
     # Add time dimension to the data
     print(f"Adding time component to the data...")
     data = unfold_time(data, n_days, **kwargs)
     # Generate fans per town and day
     print(f"Generating fans data...")
-    data = generate_fans(data, **kwargs)
+    data = generate_fans(data, popularity=0.01, **kwargs)
     # Generate weather per town and day
     print(f"Generating weather data...")
     data = generate_weather(data, **kwargs)
@@ -121,13 +127,14 @@ def generate_weather(data):
 
 
 def generate_cost(data, var = 0.1):
-    weekday_factors = np.array([1,2,2,4,9,10,8])/10
+    weekday_factors = np.array([1,2,2,4,9,10,8])/1
     
     cost = np.zeros(len(data), dtype=float)
     cost = round(\
-            data['capacity']/ data['capacity'].abs().max()     * 20000 * np.random.uniform(1-var, 1+var)+\
-            data['population']/ data['population'].abs().max() *  10000 * np.random.uniform(1-var, 1+var)+\
-            data['roofed'] * 5000 * np.random.uniform(1-var, 1+var)*\
+            (data['capacity']/ data['capacity'].abs().max()     * 2000 * np.random.uniform(1-var, 1+var)+\
+            data['population']/ data['population'].abs().max() *  5000 * np.random.uniform(1-var, 1+var)+\
+            data['reviews']/ data['reviews'].abs().max() *  500 * np.random.uniform(1-var, 1+var)+\
+            data['roofed'] * 2500 * np.random.uniform(1-var, 1+var))*\
             data.apply(lambda row: weekday_factors[row['weekday']], axis=1)\
                  * 1* np.random.uniform(1-var, 1+var)
             , -1)
@@ -157,6 +164,11 @@ def generate_availability(data, var = 0.1):
     data['availability'] = avilability.astype(int).astype(bool)
     return data
 
+def generate_reviews(data, center=3.0, var = 0.55):
+    N = len(data)
+    reviews = np.random.normal(center, var, N).round(1)
+    data["reviews"] = reviews
+    return data
 
 
 if __name__ == '__main__':
@@ -164,7 +176,7 @@ if __name__ == '__main__':
 
     data = pd.read_csv('./venues/data/data_fused.csv')
 
-    data = generate_data(data, n_days = 3)
+    data = generate_data(data, n_days = 7)
     test = (data['fans'] <= data['population']).all()
     print(test)
 
