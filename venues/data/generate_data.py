@@ -16,15 +16,19 @@ def generate_data(data, **kwargs):
     print(f"Removing venues with ''0'' capacity...")
     data.dropna(inplace=True)
     data = data.drop(data[data['capacity']==0].index)
+    # Generate fans per town and day
+    print(f"Generating fans data...")
+    data = generate_fans_static(data, popularity=0.01, **kwargs)
     # Add reviews
     print(f"Adding reviews to the venue data...")
     data = generate_reviews(data, **kwargs)
+
     # Add time dimension to the data
     print(f"Adding time component to the data...")
     data = unfold_time(data, n_days, **kwargs)
     # Generate fans per town and day
-    print(f"Generating fans data...")
-    data = generate_fans(data, popularity=0.01, **kwargs)
+    # print(f"Generating fans data...")
+    # data = generate_fans(data, popularity=0.01, **kwargs)
     # Generate weather per town and day
     print(f"Generating weather data...")
     data = generate_weather(data, **kwargs)
@@ -41,7 +45,7 @@ def generate_data(data, **kwargs):
 Add the time dimension to the dataset
 """
 def unfold_time(data, n_days, day_margin=30):
-    today = datetime.now().date()
+    today = datetime.now().date() + timedelta(days=30)
     start_day = today + timedelta(days=day_margin)
     weekday = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes","Sábado","Domingo"]
     rows = [] 
@@ -93,6 +97,31 @@ def generate_fans(data, popularity=0.25, var=0.1):
     data['fans'] = data.apply(lambda row: fans_dict[(row['town'], row['day'])], axis=1)
     
     return data
+"""
+Generate the number of fans that each town has 
+"""
+def generate_fans_static(data, popularity=0.25):
+    """
+    Genera un número estático de fans para cada ciudad,
+    basado en su población y una tasa de popularidad.
+    """
+    towns = data['town'].unique()
+    population_dict = data.set_index('town')['population'].to_dict()
+    fans_dict = {}
+
+    for town in towns:
+        population = population_dict[town]
+        # Genera un número de fans basado en la población y popularidad
+        if town == "Granada":
+            num_fans = np.clip(int(population * popularity * 10 * np.random.rand()), 0, population) # En granada son muy populares
+        else:
+            num_fans = np.clip(int(population * popularity * np.random.rand()), 0, population)
+        fans_dict[town] = num_fans
+
+    # Asigna el mismo número de fans a cada aparición de la ciudad en el DataFrame
+    data['fans'] = data['town'].map(fans_dict)
+
+    return data
 
 """
 Generate the weather forecast on each town each day
@@ -127,12 +156,12 @@ def generate_weather(data):
 
 
 def generate_cost(data, var = 0.1):
-    weekday_factors = np.array([1,2,2,4,9,10,8])/1
+    weekday_factors = np.array([1,2,2,2.5,3,3.5,3])/1
     
     cost = np.zeros(len(data), dtype=float)
     cost = round(\
             (data['capacity']/ data['capacity'].abs().max()     * 2000 * np.random.uniform(1-var, 1+var)+\
-            data['population']/ data['population'].abs().max() *  5000 * np.random.uniform(1-var, 1+var)+\
+            data['population']/ data['population'].abs().max() *  10000 * np.random.uniform(1-var, 1+var)+\
             data['reviews']/ data['reviews'].abs().max() *  500 * np.random.uniform(1-var, 1+var)+\
             data['roofed'] * 2500 * np.random.uniform(1-var, 1+var))*\
             data.apply(lambda row: weekday_factors[row['weekday']], axis=1)\
@@ -144,22 +173,19 @@ def generate_cost(data, var = 0.1):
     return data
 
 
-def generate_availability(data, var = 0.1):
-    weekday_factors = [0.9,0.8,0.8,0.6,0.2,0.1,0.15]
+def generate_availability(data, var = 0.3):
+    weekday_factors = [0.95,0.85,0.8,0.6,0.5,0.45,0.4]
     roofed_factors = [0.55, 0.35]
 
     max_cost = max(data['cost'])
     max_population = max(data['population'])
 
     avilability = np.zeros(len(data), dtype=bool)
-    avilability = (1\
-            *data['cost'].values/max_cost * 1.* np.random.uniform(1-var, 1+var)\
-            *1/(data['population'].values/max_population*1)* np.random.uniform(1-var, 1+var)\
-            *data.apply(lambda row: roofed_factors[row['roofed']], axis=1)*\
-                1 * np.random.uniform(1-var, 1+var)\
-            *data.apply(lambda row: weekday_factors[row['weekday']], axis=1)*\
-                1 * np.random.uniform(1-var, 1+var)\
-            )**(1/4) +.5
+
+    avilability = (0\
+                    +1-(data['population'].values/max_population)**(1/8) * np.random.uniform(1-var, 1+var)\
+                    +data.apply(lambda row: weekday_factors[row['weekday']], axis=1)*.5 * np.random.uniform(1-var, 1+var)\
+                    )+.5
     
     data['availability'] = avilability.astype(int).astype(bool)
     return data
@@ -176,7 +202,7 @@ if __name__ == '__main__':
 
     data = pd.read_csv('./venues/data/data_fused.csv')
 
-    data = generate_data(data, n_days = 7)
+    data = generate_data(data, n_days = 90)
     test = (data['fans'] <= data['population']).all()
     print(test)
 

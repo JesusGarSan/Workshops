@@ -118,7 +118,10 @@ Este taller se plantea altamente cooperativo con el público. Por tanto, es muy 
 
 - **Implícitas**: Son aquellas que nos esperamos que aparezcan en los datos. Las descubriremos analizándolos.
     - **[Día, Localidad, Calidad, Aforo] -> Precio**: Todas estas variables afectarán al precio del recinto 
-    - **Precio <-> Disponibilidad**: Es más fácil que lo más barato esté reservado. Asimismo, cuánto menor sea el número de opciones, más subiran los precios.
+    - **Precio <-> Población**: Es más fácil que lo más barato esté reservado. Asimismo, cuánto menor sea el número de 
+    opciones, más subiran los precios.
+    - **Disponibilidad <-> Población**: Es más fácil que los recintos de localidades más pobladas estén ya reservados.
+
 - **No implícitas**: Afectan a nuestra forma de tomar decisiones. La importancia que le demos a un variable dependerá del valor que tenga otra de las variables.
     - **Techo -> Clima**: Si el recinto está techado no nos importa que llueva o no.
     - **Fans -> Aforo**: Que el aforo sea grande sólo nos importa si hay suficientes fans como para que esperemos llenarlo.
