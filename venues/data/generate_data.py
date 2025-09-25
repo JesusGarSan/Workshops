@@ -202,7 +202,7 @@ if __name__ == '__main__':
 
     data = pd.read_csv('./venues/data/data_fused.csv')
 
-    data = generate_data(data, n_days = 90)
+    data = generate_data(data, n_days = 20)
     test = (data['fans'] <= data['population']).all()
     print(test)
 

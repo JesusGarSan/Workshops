@@ -6,3 +6,7 @@ beautifulsoup4
 unidecode
 git+https://github.com/JesusGarSan/base_app
 streamlit-antd-components
+plotly
+git+https://github.com/CoDaSLab/MSPC_PCA-based.git
+scikit-learn
+
