@@ -15,25 +15,58 @@ def filter_labels(points, labels, pc1, pc2, min_dist=1.0):
     return selected
 
 
-def scores_plotly(data, pca_model, pc1: int, pc2: int, labels: list = None, 
-                  label_dist: float = 1.0, classes: list = None, cmap: str = 'Viridis'):
+import numpy as np
+import plotly.graph_objects as go
+from plotly.colors import qualitative
+import pandas as pd
+
+def scores_plotly(
+    data, 
+    pca_model, 
+    pc1: int, 
+    pc2: int, 
+    labels: list = None, 
+    label_dist: float = 1.0, 
+    classes: list = None, 
+    cmap: str = 'Viridis',
+    original_data: pd.DataFrame = None
+):
     """
-    2D PCA scores con hover personalizado mostrando PC1, PC2, clase y label.
+    2D PCA scores con hover mostrando PC1, PC2, clase, label y valores originales.
+    Soporta variables numéricas y categóricas en original_data.
     """
-    pc1, pc2 = pc1 - 1, pc2 - 1  # indices base 0
+    pc1, pc2 = pc1 - 1, pc2 - 1  # índices base 0
     scores = pca_model.fit_transform(data)
     explained_variance = pca_model.explained_variance_ratio_ * 100
 
     fig = go.Figure()
 
-    # Filtrar etiquetas si se proporcionan
-    filtered_labels = None
-    if labels is not None:
-        filtered = filter_labels(scores, labels, pc1, pc2, min_dist=label_dist)
-        if filtered:
-            xs, ys, filtered_labels = zip(*filtered)
-        else:
-            xs, ys, filtered_labels = [], [], []
+    # ==============================
+    # Datos para el hover
+    # ==============================
+    if original_data is not None:
+        customdata = original_data.to_numpy()
+        feature_names = list(original_data.columns)
+        feature_is_numeric = [
+            pd.api.types.is_numeric_dtype(original_data[col]) for col in feature_names
+        ]
+    else:
+        customdata = np.array(data)
+        feature_names = [f"Var{i+1}" for i in range(data.shape[1])]
+        feature_is_numeric = [True] * len(feature_names)  # asumimos numéricos si no hay df
+
+    # -------------------
+    # Función para hover
+    # -------------------
+    def make_hovertemplate(base_template):
+        parts = []
+        for i, (name, is_num) in enumerate(zip(feature_names, feature_is_numeric)):
+            if is_num:
+                parts.append(f"{name}: %{{customdata[{i}]:.2f}}")
+            else:
+                parts.append(f"{name}: %{{customdata[{i}]}}")
+        variables_template = "<br>".join(parts)
+        return base_template + "<br>" + variables_template + "<extra></extra>"
 
     # -------------------
     # Puntos coloreados
@@ -52,9 +85,10 @@ def scores_plotly(data, pca_model, pc1: int, pc2: int, labels: list = None,
                     mode="markers",
                     marker=dict(size=8, color=colors[i % len(colors)],
                                 line=dict(width=0.5, color="black")),
-                    name="",
+                    name=str(cls),
                     text=hover_labels,
-                    hovertemplate = (
+                    customdata=customdata[mask],
+                    hovertemplate=make_hovertemplate(
                         "%{text}<br>"
                         f"class: {cls}<br>"
                         f"PC{pc1+1}: %{{x:.3f}}<br>"
@@ -71,14 +105,14 @@ def scores_plotly(data, pca_model, pc1: int, pc2: int, labels: list = None,
                             line=dict(width=0.5, color="black")),
                 name="",
                 text=hover_labels,
-                hovertemplate=(
+                customdata=customdata,
+                hovertemplate=make_hovertemplate(
                     f"PC{pc1+1}: %{{x:.3f}}<br>"
                     f"PC{pc2+1}: %{{y:.3f}}<br>"
                     "Clase: %{marker.color}<br>"
                     "Label: %{text}"
                 )
             ))
-
     else:
         hover_labels = labels if labels is not None else ['']*len(scores)
         fig.add_trace(go.Scatter(
@@ -88,9 +122,11 @@ def scores_plotly(data, pca_model, pc1: int, pc2: int, labels: list = None,
             marker=dict(size=8, color="blue", opacity=0.8,
                         line=dict(width=0.5, color="black")),
             name="",
-            hovertemplate=
-                "PC{}: %{x:.3f}<br>PC{}: %{y:.3f}<br>Label: %{text}".format(pc1+1, pc2+1),
-            text=hover_labels
+            text=hover_labels,
+            customdata=customdata,
+            hovertemplate=make_hovertemplate(
+                "PC{}: %{x:.3f}<br>PC{}: %{y:.3f}<br>Label: %{text}".format(pc1+1, pc2+1)
+            )
         ))
 
     # Ejes en cero
@@ -115,11 +151,13 @@ def scores_plotly(data, pca_model, pc1: int, pc2: int, labels: list = None,
             zeroline=False
         ),
         template="plotly_white",
-        width=800,
-        height=600
+        width=900,
+        height=700
     )
 
     return fig
+
+
 
 import plotly.graph_objects as go
 import numpy as np

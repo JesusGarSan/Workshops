@@ -145,6 +145,7 @@ with tabs[4]:
     selection = st.multiselect("Variables a considerar", var_labels_es, default=var_labels_es)
     selected_indices = [var_labels_es.index(label) for label in selection]
     var_labels_selected = var_labels[selected_indices]
+    var_labels_es = selection
 
     # Filtrar el DataFrame
     df_num = df[var_labels_selected]
@@ -179,8 +180,11 @@ with tabs[4]:
 
     col = st.columns(2)
     with col[0]:
+        df.drop(["name", "latitude", "longitude", "day", "weekday"], axis=1, inplace=True)
+        df.columns = ["aforo", "localidad",  "población", "techado", "nº fans", "calidad", "fecha", "día semana", "clima", "precio", "disponibilidad"]
         fig = scores_plotly(X, pca, pc1, pc2, obs_labels,2,
-                            classes = classes[class_names.index(class_name)])
+                            classes = classes[class_names.index(class_name)],
+                            original_data = df)
         fig.update_traces(
         hoverlabel=dict(
             font_size=18,      # tamaño de fuente

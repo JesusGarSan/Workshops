@@ -155,7 +155,7 @@ def generate_weather(data):
     return data
 
 
-def generate_cost(data, var = 0.1):
+def generate_cost(data, var = 0.9):
     weekday_factors = np.array([1,2,2,2.5,3,3.5,3])/1
     
     cost = np.zeros(len(data), dtype=float)
@@ -190,10 +190,18 @@ def generate_availability(data, var = 0.3):
     data['availability'] = avilability.astype(int).astype(bool)
     return data
 
-def generate_reviews(data, center=3.0, var = 0.55):
+def generate_reviews(data, center=3.5, var=0.55):
     N = len(data)
     reviews = np.random.normal(center, var, N).round(1)
     data["reviews"] = reviews
+
+    # Corrección para Granada
+    mask = data["town"] == "Granada"
+    data.loc[mask, "reviews"] = np.clip(data.loc[mask, "reviews"] + 1.0, 0, 5)
+    # Corrección para Madrid
+    mask = data["town"] == "Madrid"
+    data.loc[mask, "reviews"] = np.clip(data.loc[mask, "reviews"] + .75, 0, 5)
+
     return data
 
 
