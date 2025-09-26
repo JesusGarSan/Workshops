@@ -191,7 +191,7 @@ with tabs[4]:
 
     with col[1]:
 
-        fig = loadings_plotly(pca, pc1, pc2, var_labels)
+        fig = loadings_plotly(pca, pc1, pc2, var_labels_es)
         fig.update_traces(
         hoverlabel=dict(
             font_size=18,      # tamaño de fuente

@@ -113,7 +113,7 @@ def generate_fans_static(data, popularity=0.25):
         population = population_dict[town]
         # Genera un número de fans basado en la población y popularidad
         if town == "Granada":
-            num_fans = np.clip(int(population * popularity * 10 * np.random.rand()), 0, population) # En granada son muy populares
+            num_fans = np.clip(int(population * popularity * 100 * np.random.rand()), 0, population) # En granada son muy populares
         else:
             num_fans = np.clip(int(population * popularity * np.random.rand()), 0, population)
         fans_dict[town] = num_fans
